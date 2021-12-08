@@ -1,13 +1,13 @@
 import React from 'react';
-import {MessageDataType} from './HW1';
+import logoUser from './iconUser.png'
 const style = require('./Message.module.css');
 
-
-function Message(props: MessageDataType) {
+function Message(props: any) {
+  const userAvatar = props.avatar ? props.avatar : logoUser;
   return (
     <div className={style.message}>
       <div className={style.messageImg}>
-        <img src={props.avatar} alt="user-avatar"/>
+        <img src={userAvatar} alt="user-avatar"/>
       </div>
       <div className={style.messageContent}>
         <div className={style.messageText}>
@@ -22,4 +22,4 @@ function Message(props: MessageDataType) {
   )
 }
 
-export default Message
+export default Message;
