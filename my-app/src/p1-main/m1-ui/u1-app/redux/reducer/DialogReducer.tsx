@@ -6,21 +6,40 @@ export const sendMessageCreator = () => {
     type: SEND_MESSAGE,
   }
 }
-export const updateNewMessageTextCreator = (body: any) => {
+export const updateNewMessageTextCreator = (body: string) => {
   return {
     type: UPDATE_NEW_MESSAGE_TEXT,
     body: body,
   }
 }
 
-const initialState = {
+export type MessageItemType = {
+  id: number,
+  name: string,
+  message: string,
+  time: string,
+  avatar: string,
+}
+
+export type MessagesType = {
+  messages: Array<MessageItemType>,
+  newMessageText: string,
+}
+
+const initialState: MessagesType = {
   messages: [
-    {id: 1, name: 'MrEpickMann', message: "Халоу", time: '22:00', avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg'},
+    {
+      id: 1,
+      name: "MrEpickMann",
+      message: "Халоу",
+      time: '22:00',
+      avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg'
+    },
   ],
   newMessageText: '',
 }
 
-export const dialogsReducer = (state: any = initialState, action: any) => {
+export const dialogsReducer = (state: MessagesType = initialState, action: any) => {
   switch (action.type) {
     case SEND_MESSAGE: {
       let body = state.newMessageText;
@@ -29,9 +48,9 @@ export const dialogsReducer = (state: any = initialState, action: any) => {
         newMessageText: '',
         messages: [...state.messages, {
           id: state.messages.length + 1,
-          name: "user",
+          name: "Anonymous",
           message: body,
-          time: '22:00',
+          time: "22:00",
           avatar: null,
         }],
       };
@@ -48,10 +67,3 @@ export const dialogsReducer = (state: any = initialState, action: any) => {
       return state;
   }
 }
-
-// const messageData: any = {
-//   avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
-//   name: 'MrEpickMann',
-//   message: 'It was said that Eleanor Weaver could take an old tree stump and make it taste like sweet rabbit stew.',
-//   time: '22:00',
-// }
