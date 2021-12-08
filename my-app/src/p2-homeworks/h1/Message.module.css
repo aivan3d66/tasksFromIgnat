@@ -22,7 +22,6 @@ html {
     width: 100%;
     height: auto;
     padding: 12px;
-    background-color: rgba(173, 255, 47, 0.8);
 }
 
 .messageImg img {
@@ -30,6 +29,7 @@ html {
     margin: 0 30px 0 0;
     height: 80px;
     border-radius: 50%;
+    background-color: #ffffff;
 }
 
 .messageContent {
@@ -97,4 +97,10 @@ html {
     height: 120px;
     padding: 10px;
     resize: vertical;
+    border: 1px solid #b2b2b2;
+}
+
+.inputBtn button {
+    padding: 6px;
+    margin: 20px 0 20px 0;
 }
