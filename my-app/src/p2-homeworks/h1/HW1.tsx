@@ -1,20 +1,7 @@
 import React from 'react'
-import Message from './Message'
+import MessagesContainer from "./MessagesContainer";
+
 const style = require('./Message.module.css');
-
-export type MessageDataType = {
-  avatar: string,
-  name: string,
-  message: string,
-  time: string,
-}
-
-const messageData: MessageDataType = {
-  avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
-  name: 'MrEpickMann',
-  message: 'It was said that Eleanor Weaver could take an old tree stump and make it taste like sweet rabbit stew.',
-  time: '22:00',
-}
 
 function HW1() {
   return (
@@ -24,16 +11,10 @@ function HW1() {
 
       {/*should work (должно работать)*/}
 
-      <Message
-          avatar={messageData.avatar}
-          name={messageData.name}
-          message={messageData.message}
-          time={messageData.time}
-      />
+      <MessagesContainer/>
 
-      <hr/>
       {/*для личного творчества, могу проверить*/}
-      {/*<AlternativeMessage/>*/}
+      {/*Альтернативное сообщение реализовано при помощи react-redux*/}
       <hr/>
     </div>
   )
