@@ -1,8 +1,9 @@
 import React from 'react';
 import logoUser from './iconUser.png'
+import {MessageItemType} from "../../p1-main/m1-ui/u1-app/redux/reducer/DialogReducer";
 const style = require('./Message.module.css');
 
-function Message(props: any) {
+function Message(props: MessageItemType) {
   const userAvatar = props.avatar ? props.avatar : logoUser;
   return (
     <div className={style.message}>
