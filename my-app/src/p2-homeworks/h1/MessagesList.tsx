@@ -8,21 +8,20 @@ type DialogPage = {
   messages: Array<MessageItemType>,
   newMessageText: string,
 }
-
 type MessageListProps = {
-  dialogPage: DialogPage,
+  messagePage: DialogPage,
   sendMessageCreator: () => void,
   updateNewMessageTextCreator: (body: string) => void,
 }
 
 function MessageList(props: MessageListProps) {
-
-  const state = props.dialogPage.messages;
-  const newMessageBody = props.dialogPage.newMessageText;
+  const state = props.messagePage.messages;
+  const newMessageBody = props.messagePage.newMessageText;
 
   const onSendMessageClick = () => {
     props.sendMessageCreator();
   }
+
   const onNewMessageChange = (e: any) => {
     const body = e.target.value;
     props.updateNewMessageTextCreator(body);
@@ -39,7 +38,6 @@ function MessageList(props: MessageListProps) {
       <div>
         {messagesItems}
       </div>
-
       <div className={style.messageInput}>
         <div className={style.inputField}>
           <textarea placeholder="Write something"
@@ -50,7 +48,6 @@ function MessageList(props: MessageListProps) {
           <button onClick={onSendMessageClick}>Send message</button>
         </div>
       </div>
-
     </div>
 
   )

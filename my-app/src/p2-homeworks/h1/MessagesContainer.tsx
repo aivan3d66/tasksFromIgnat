@@ -7,12 +7,12 @@ import {connect} from "react-redux";
 import MessageList from "./MessagesList";
 
 type MapStateProps = {
-  dialogPage: MessagesType,
+  messagePage: MessagesType,
 }
 
 const mapStateToProps = (state: MapStateProps) => {
   return {
-    dialogPage: state.dialogPage,
+    messagePage: state.messagePage,
   }
 }
 

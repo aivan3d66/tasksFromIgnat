@@ -1,8 +1,8 @@
 import {createStore, combineReducers} from "redux";
-import {dialogsReducer} from "./reducer/DialogReducer";
+import {messagesReducer} from "./reducer/DialogReducer";
 
 const reducers = combineReducers({
-  dialogPage: dialogsReducer,
+  messagePage: messagesReducer,
 });
 
 const store = createStore(reducers);

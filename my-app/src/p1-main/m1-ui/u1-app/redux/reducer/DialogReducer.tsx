@@ -20,7 +20,6 @@ export type MessageItemType = {
   time: string,
   avatar: string,
 }
-
 export type MessagesType = {
   messages: Array<MessageItemType>,
   newMessageText: string,
@@ -44,7 +43,7 @@ const initialState: MessagesType = {
   messageTime: getCurrentTime,
 }
 
-export const dialogsReducer = (state: MessagesType = initialState, action: any) => {
+export const messagesReducer = (state: MessagesType = initialState, action: any) => {
   switch (action.type) {
     case SEND_MESSAGE: {
       let body = state.newMessageText;
