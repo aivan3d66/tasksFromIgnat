@@ -24,7 +24,11 @@ export type MessageItemType = {
 export type MessagesType = {
   messages: Array<MessageItemType>,
   newMessageText: string,
+  messageTime: string
 }
+
+const data = new Date();
+const getCurrentTime = `${data.getHours()}:${data.getMinutes()}`;
 
 const initialState: MessagesType = {
   messages: [
@@ -37,12 +41,14 @@ const initialState: MessagesType = {
     },
   ],
   newMessageText: '',
+  messageTime: getCurrentTime,
 }
 
 export const dialogsReducer = (state: MessagesType = initialState, action: any) => {
   switch (action.type) {
     case SEND_MESSAGE: {
       let body = state.newMessageText;
+      let curTime = state.messageTime;
       return {
         ...state,
         newMessageText: '',
@@ -50,7 +56,7 @@ export const dialogsReducer = (state: MessagesType = initialState, action: any) 
           id: state.messages.length + 1,
           name: "Anonymous",
           message: body,
-          time: "22:00",
+          time: curTime,
           avatar: null,
         }],
       };
