@@ -1,6 +1,7 @@
 import React from 'react'
 import Affair from './Affair'
 import {AffairType} from './HW2'
+import {FILTER_ALL, FILTER_HIGH, FILTER_LOW, FILTER_MIDDLE} from "./HW2";
 
 type AffairsPropsType = { // need to fix any
     data: any
@@ -17,10 +18,10 @@ function Affairs(props: AffairsPropsType) {
         />
     ))
 
-    const setAll = () => {props.setFilter("all")} // need to fix
-    const setHigh = () => {props.setFilter("high")}
-    const setMiddle = () => {props.setFilter("middle")}
-    const setLow = () => {props.setFilter("low")}
+    const setAll = () => {props.setFilter(FILTER_ALL)} // need to fix
+    const setHigh = () => {props.setFilter(FILTER_HIGH)}
+    const setMiddle = () => {props.setFilter(FILTER_LOW)}
+    const setLow = () => {props.setFilter(FILTER_MIDDLE)}
 
     return (
         <div>
