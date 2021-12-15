@@ -41,7 +41,9 @@ export const filterAffairs = (affairs: Array<AffairType>, filter: AffairPriority
   }
 }
 
-export const deleteAffair = (affairs: Array<AffairType>, _id: number): any => { // need to fix any
+type DeleteAffair = (affairs: Array<AffairType>, _id: number) => Array<AffairType>;
+
+export const deleteAffair:DeleteAffair = (affairs, _id) => { // need to fix any
   return affairs.filter(a => a._id !== _id);
 }
 
