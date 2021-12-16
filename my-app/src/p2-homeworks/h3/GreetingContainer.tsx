@@ -1,4 +1,4 @@
-import React, {useState, MouseEvent} from 'react'
+import React, {useState, MouseEvent, ChangeEvent} from 'react'
 import Greeting from './Greeting'
 import {AddUserCallback, UserType} from "./HW3";
 
@@ -6,6 +6,10 @@ type GreetingContainerPropsType = {
   users: Array<UserType> // need to fix any
   addUserCallback: AddUserCallback // need to fix any
 }
+
+export type SetNameCallback = (e: ChangeEvent<HTMLInputElement>) => void
+
+export const ERROR_MESSAGE = `Please, enter the message`;
 
 // более простой и понятный для новичков
 // function GreetingContainer(props: GreetingPropsType) {
@@ -16,13 +20,14 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
   const [name, setName] = useState<string>('') // need to fix any
   const [error, setError] = useState<string>('') // need to fix any
 
-  const setNameCallback = (e: MouseEvent<HTMLInputElement>) => { // need to fix any
+
+  const setNameCallback: SetNameCallback = (e) => { // need to fix any
     let inputValue = e.currentTarget.value
     if (inputValue) {
       setName(inputValue);
       setError(``)
     } else if (!inputValue) {
-      setError(`Please, enter the message`)
+      setError(ERROR_MESSAGE)
       setName('')
     }
   }
@@ -32,7 +37,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
       addUserCallback(name);
       alert(`Hello ${name}!`)
     } else {
-      setError(`Please, enter the message`)
+      setError(ERROR_MESSAGE)
       alert(error)
     }// need to fix
   }

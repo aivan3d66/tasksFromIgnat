@@ -1,11 +1,12 @@
-import React, {MouseEvent} from 'react'
+import React from 'react'
 import s from './Greeting.module.css'
+import {SetNameCallback} from './GreetingContainer'
 
 type GreetingPropsType = {
     name: string // need to fix any
-    setNameCallback: any // need to fix any
+    setNameCallback: SetNameCallback // need to fix any
     addUser: () => void // need to fix any
-    error: any // need to fix any
+    error: string // need to fix any
     totalUsers: number // need to fix any
 }
 
