@@ -1,4 +1,4 @@
-import React, {useState, MouseEvent, ChangeEvent} from 'react'
+import React, {useState, ChangeEvent} from 'react'
 import Greeting from './Greeting'
 import {AddUserCallback, UserType} from "./HW3";
 
@@ -18,12 +18,12 @@ export const ERROR_MESSAGE = `Please, enter the message`;
 // уровень локальной логики
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUserCallback}) => { // деструктуризация пропсов
   const [name, setName] = useState<string>('') // need to fix any
-  const [error, setError] = useState<string>('') // need to fix any
+  const [error, setError] = useState<string>(ERROR_MESSAGE) // need to fix any
 
 
   const setNameCallback: SetNameCallback = (e) => { // need to fix any
     let inputValue = e.currentTarget.value
-    if (inputValue) {
+    if (inputValue.trim()) {
       setName(inputValue);
       setError(``)
     } else if (!inputValue) {
