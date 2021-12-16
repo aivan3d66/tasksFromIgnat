@@ -23,7 +23,7 @@ function HW3() {
   return (
     <div className={s.inputForm__wrapper}>
       <hr/>
-      homeworks 3
+      <h2>Homeworks 3</h2>
 
       {/*should work (должно работать)*/}
       <GreetingContainer users={users} addUserCallback={addUserCallback}/>
