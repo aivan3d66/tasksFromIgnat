@@ -17,17 +17,16 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
   const [error, setError] = useState<boolean>(false) // need to fix any
 
   const setNameCallback = (e: MouseEvent<HTMLButtonElement>) => { // need to fix any
-    let val = e.currentTarget.value;
-    if (val) setName(val) // need to fix
-    if (!val) setError(!error)
+    let inputValue = e.currentTarget.value;
+    if (inputValue) setName(inputValue) // need to fix
+    if (!inputValue) setError(!error)
   }
 
   const addUser = () => {
     if (name !== "") {
       addUserCallback(name);
       alert(`Hello  ${name}!`)
-    } else if (!name) {
-      setError(!error)
+    } else {
       alert(`ERROR`)
     }// need to fix
   }
