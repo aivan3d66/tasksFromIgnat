@@ -1,9 +1,10 @@
 import React, {useState, MouseEvent} from 'react'
 import Greeting from './Greeting'
+import {AddUserCallback, UserType} from "./HW3";
 
 type GreetingContainerPropsType = {
-  users: any // need to fix any
-  addUserCallback: any // need to fix any
+  users: Array<UserType> // need to fix any
+  addUserCallback: AddUserCallback // need to fix any
 }
 
 // более простой и понятный для новичков
@@ -12,8 +13,8 @@ type GreetingContainerPropsType = {
 // более современный и удобный для про :)
 // уровень локальной логики
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUserCallback}) => { // деструктуризация пропсов
-  const [name, setName] = useState<any>('') // need to fix any
-  const [error, setError] = useState<any>(false) // need to fix any
+  const [name, setName] = useState<string>('') // need to fix any
+  const [error, setError] = useState<boolean>(false) // need to fix any
 
   const setNameCallback = (e: MouseEvent<HTMLButtonElement>) => { // need to fix any
     let val = e.currentTarget.value;
