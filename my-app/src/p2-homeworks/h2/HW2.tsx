@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Affairs from './Affairs'
+import s from './Affairs.module.css'
 
 // types
 export type AffairPriorityType = typeof FILTER_HIGH | typeof FILTER_MIDDLE | typeof FILTER_LOW; // need to fix any
@@ -58,9 +59,8 @@ function HW2() {
     const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id)) // need to fix any
 
     return (
-        <div>
-            <hr/>
-            homeworks 2
+        <div className={s.affairsContainer}>
+            <h2>Homeworks 2</h2>
 
             {/*should work (должно работать)*/}
             <Affairs
@@ -69,10 +69,8 @@ function HW2() {
                 deleteAffairCallback={deleteAffairCallback}
             />
 
-            <hr/>
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeAffairs/>*/}
-            <hr/>
         </div>
     )
 }
