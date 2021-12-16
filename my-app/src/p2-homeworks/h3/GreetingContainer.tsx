@@ -1,9 +1,9 @@
-import React, {useState} from 'react'
+import React, {useState, MouseEvent} from 'react'
 import Greeting from './Greeting'
 
 type GreetingContainerPropsType = {
-    users: any // need to fix any
-    addUserCallback: any // need to fix any
+  users: any // need to fix any
+  addUserCallback: any // need to fix any
 }
 
 // более простой и понятный для новичков
@@ -12,27 +12,35 @@ type GreetingContainerPropsType = {
 // более современный и удобный для про :)
 // уровень локальной логики
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUserCallback}) => { // деструктуризация пропсов
-    const [name, setName] = useState<any>('') // need to fix any
-    const [error, setError] = useState<any>('') // need to fix any
+  const [name, setName] = useState<any>('') // need to fix any
+  const [error, setError] = useState<any>(false) // need to fix any
 
-    const setNameCallback = (e: any) => { // need to fix any
-        setName('') // need to fix
-    }
-    const addUser = () => {
-        alert(`Hello  !`) // need to fix
-    }
+  const setNameCallback = (e: MouseEvent<HTMLButtonElement>) => { // need to fix any
+    let val = e.currentTarget.value;
+    if (val) setName(val) // need to fix
+    if (!val) setError(!error)
+  }
 
-    const totalUsers = 0 // need to fix
+  const addUser = () => {
+    if (name !== "") {
+      addUserCallback(name);
+      alert(`Hello  ${name}!`)
+    } else if (!name) {
+      setError(!error)
+      alert(`ERROR`)
+    }// need to fix
+  }
 
-    return (
-        <Greeting
-            name={name}
-            setNameCallback={setNameCallback}
-            addUser={addUser}
-            error={error}
-            totalUsers={totalUsers}
-        />
-    )
+  const totalUsers = users.length; // need to fix
+  return (
+    <Greeting
+      name={name}
+      setNameCallback={setNameCallback}
+      addUser={addUser}
+      error={error}
+      totalUsers={totalUsers}
+    />
+  )
 }
 
 export default GreetingContainer
