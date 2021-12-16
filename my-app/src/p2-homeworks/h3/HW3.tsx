@@ -4,16 +4,18 @@ import {v4 as uuidv4} from 'uuid';
 
 // types
 export type UserType = {
-  _id: any // need to fix any
-  name: any // need to fix any
+  _id: string // need to fix any
+  name: string // need to fix any
 }
+
+export type AddUserCallback = (name: string) => any
 
 // уровень работы с глобальными данными
 function HW3() {
-  const [users, setUsers] = useState<any>([]) // need to fix any
+  const [users, setUsers] = useState<Array<UserType>>([]) // need to fix any
 
-  const addUserCallback = (name: string) => { // need to fix any
-    setUsers([ ...users, {_id: uuidv4(), name}]); // need to fix
+  const addUserCallback: AddUserCallback = (name) => { // need to fix any
+    setUsers([...users, {_id: uuidv4(), name}]); // need to fix
   }
 
   console.log(users);
