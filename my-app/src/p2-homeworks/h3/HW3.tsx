@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import GreetingContainer from './GreetingContainer'
-import {v4 as uuidv4} from 'uuid';
+import {v1} from 'uuid';
 import s from "./Greeting.module.css";
 
 // types
@@ -16,10 +16,9 @@ function HW3() {
   const [users, setUsers] = useState<Array<UserType>>([]) // need to fix any
 
   const addUserCallback: AddUserCallback = (name) => { // need to fix any
-    setUsers([...users, {_id: uuidv4(), name}]); // need to fix
+    setUsers([...users, {_id: v1(), name}]); // need to fix
   }
 
-  console.log(users);
   return (
     <div className={s.inputForm__wrapper}>
       <hr/>

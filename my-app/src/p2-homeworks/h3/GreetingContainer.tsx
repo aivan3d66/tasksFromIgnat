@@ -1,4 +1,4 @@
-import React, {useState, ChangeEvent} from 'react'
+import React, {useState, ChangeEvent, KeyboardEvent} from 'react'
 import Greeting from './Greeting'
 import {AddUserCallback, UserType} from "./HW3";
 
@@ -7,9 +7,11 @@ type GreetingContainerPropsType = {
   addUserCallback: AddUserCallback // need to fix any
 }
 
-export type SetNameCallback = (e: ChangeEvent<HTMLInputElement>) => void
+export type SetNameCallback = (e: ChangeEvent<HTMLInputElement>) => void;
+export type OnEnter = (e: KeyboardEvent<HTMLInputElement>) => void;
+export type AddUser = () => void;
 
-export const ERROR_MESSAGE = `Please, enter the message`;
+export const ERROR_MESSAGE: string = `Please, enter the message`;
 
 // более простой и понятный для новичков
 // function GreetingContainer(props: GreetingPropsType) {
@@ -18,28 +20,33 @@ export const ERROR_MESSAGE = `Please, enter the message`;
 // уровень локальной логики
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUserCallback}) => { // деструктуризация пропсов
   const [name, setName] = useState<string>('') // need to fix any
-  const [error, setError] = useState<string>(ERROR_MESSAGE) // need to fix any
+  const [error, setError] = useState<string>('') // need to fix any
 
 
   const setNameCallback: SetNameCallback = (e) => { // need to fix any
-    let inputValue = e.currentTarget.value
-    if (inputValue.trim()) {
+    const inputValue = e.currentTarget.value.trim();
+
+    if (inputValue) {
       setName(inputValue);
-      setError(``)
+      error && setError(``)
     } else if (!inputValue) {
+      name && setName('')
       setError(ERROR_MESSAGE)
+    }
+  }
+
+  const addUser: AddUser = () => {
+    if (name) {
+      addUserCallback(name);
+      alert(`Hello ${name}!`)
       setName('')
     }
   }
 
-  const addUser = () => {
-    if (name !== "") {
-      addUserCallback(name);
-      alert(`Hello ${name}!`)
-    } else {
-      setError(ERROR_MESSAGE)
-      alert(error)
-    }// need to fix
+  const onEnter: OnEnter = (e) => {
+    if (e.key === "Enter" && name) {
+      addUser()
+    }
   }
 
   const totalUsers = users.length; // need to fix
@@ -49,6 +56,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
       setNameCallback={setNameCallback}
       addUser={addUser}
       error={error}
+      onEnter={onEnter}
       totalUsers={totalUsers}
     />
   )
