@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add body font-family and h1 paddings">
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add .idea files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +92,7 @@
       <workItem from="1640020843402" duration="4709000" />
       <workItem from="1640067412387" duration="635000" />
       <workItem from="1640084885163" duration="13495000" />
-      <workItem from="1640099055870" duration="11579000" />
+      <workItem from="1640099055870" duration="12915000" />
     </task>
     <task id="LOCAL-00001" summary="add correct finalInputClassName">
       <created>1640087256746</created>
@@ -327,7 +325,35 @@
       <option name="project" value="LOCAL" />
       <updated>1640115897889</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="add SuperBtn import and ternary operator">
+      <created>1640116264943</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1640116264943</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add basic styles and animations">
+      <created>1640116302736</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1640116302736</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add useState">
+      <created>1640116320022</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1640116320022</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add .idea files">
+      <created>1640116343584</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1640116343585</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,10 +384,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add refactoring" />
-    <MESSAGE value="delete error in showAlert" />
-    <MESSAGE value="add fix of checkbox handler" />
-    <MESSAGE value="add background image" />
     <MESSAGE value="add new image" />
     <MESSAGE value="add new buttons styles" />
     <MESSAGE value="delete green bg-color" />
@@ -383,6 +405,10 @@
     <MESSAGE value="add Routes and Route import" />
     <MESSAGE value="add changes to .idea" />
     <MESSAGE value="add body font-family and h1 paddings" />
-    <option name="LAST_COMMIT_MESSAGE" value="add body font-family and h1 paddings" />
+    <MESSAGE value="add SuperBtn import and ternary operator" />
+    <MESSAGE value="add basic styles and animations" />
+    <MESSAGE value="add useState" />
+    <MESSAGE value="add .idea files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .idea files" />
   </component>
 </project>
