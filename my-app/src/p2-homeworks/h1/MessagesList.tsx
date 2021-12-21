@@ -1,6 +1,7 @@
 import React from 'react';
 import Message from "./Message";
 import {MessageItemType} from "../../p1-main/m1-ui/u1-app/redux/reducer/DialogReducer";
+import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 
 const style = require('./Message.module.css');
 
@@ -45,7 +46,9 @@ function MessageList(props: MessageListProps) {
                     onChange={onNewMessageChange}/>
         </div>
         <div className={style.inputBtn}>
-          <button onClick={onSendMessageClick}>Send message</button>
+          <SuperButton onClick={onSendMessageClick}>
+            Send message
+          </SuperButton>
         </div>
       </div>
     </div>
