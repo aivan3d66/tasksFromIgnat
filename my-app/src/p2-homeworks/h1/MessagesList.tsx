@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {ChangeEvent} from 'react';
 import Message from "./Message";
 import {MessageItemType} from "../../p1-main/m1-ui/u1-app/redux/reducer/DialogReducer";
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
@@ -23,7 +23,7 @@ function MessageList(props: MessageListProps) {
     props.sendMessageCreator();
   }
 
-  const onNewMessageChange = (e: any) => {
+  const onNewMessageChange = (e: ChangeEvent<HTMLInputElement>) => {
     const body = e.target.value;
     props.updateNewMessageTextCreator(body);
   }
@@ -41,7 +41,7 @@ function MessageList(props: MessageListProps) {
       </div>
       <div className={style.messageInput}>
         <div className={style.inputField}>
-          <textarea placeholder="Write something"
+          <input placeholder="Write the message"
                     value={newMessageBody}
                     onChange={onNewMessageChange}/>
         </div>
