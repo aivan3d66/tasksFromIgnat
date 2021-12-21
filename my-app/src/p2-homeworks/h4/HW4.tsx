@@ -12,7 +12,7 @@ function HW4() {
     if (error) {
       alert('введите текст...')
     } else {
-      error || alert(text) // если нет ошибки показать текст
+      alert(text) // если нет ошибки показать текст
     }
   }
 
