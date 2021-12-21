@@ -1,20 +1,62 @@
+.hide {
+  visibility: hidden;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transform: translateX(100%);
+}
+
 a {
   color: #000000;
   text-decoration: none;
+}
+
+.menuBtn {
+  margin: 20px;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
 }
 
 .navList {
   display: flex;
   justify-content: space-between;
 
-  width: 250px;
-  margin: 0 0 20px 0;
+  max-width: 400px;
+  margin: 10px 0 10px 0;
+  padding: 0 20px;
+
+  filter: alpha(opacity=100);
+  transform: translateX(0);
+  transition: all 0.3s ease-in-out;
 }
 
 .nav__item {
+  min-width: 110px;
+  padding: 10px 6px;
+  margin: 0 10px 0 0;
 
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid darkslategrey;
+
+  transition: 0.5s;
 }
 
+.nav__item:hover,
+.nav__item:focus {
+  color: white;
+  border: 1px solid white;
+  background-color: darkslategrey;
+}
+
+
 .nav__itemActive {
-  text-decoration: underline;
+  color: white;
+
+  border: 1px solid darkslategrey;
+  background-color: darkslategrey;
+
+  transition: 0.5s;
 }
