@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add hr tags">
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add body font-family and h1 paddings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +94,7 @@
       <workItem from="1640020843402" duration="4709000" />
       <workItem from="1640067412387" duration="635000" />
       <workItem from="1640084885163" duration="13495000" />
-      <workItem from="1640099055870" duration="6248000" />
+      <workItem from="1640099055870" duration="11579000" />
     </task>
     <task id="LOCAL-00001" summary="add correct finalInputClassName">
       <created>1640087256746</created>
@@ -304,7 +306,28 @@
       <option name="project" value="LOCAL" />
       <updated>1640110802104</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="add Routes and Route import">
+      <created>1640110870518</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1640110870518</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add changes to .idea">
+      <created>1640110889395</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1640110889395</updated>
+    </task>
+    <task id="LOCAL-00033" summary="add body font-family and h1 paddings">
+      <created>1640115897889</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1640115897889</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,9 +358,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="delete whitespaces" />
-    <MESSAGE value="add basic checkbox styles" />
-    <MESSAGE value="add checked logic" />
     <MESSAGE value="add refactoring" />
     <MESSAGE value="delete error in showAlert" />
     <MESSAGE value="add fix of checkbox handler" />
@@ -360,6 +380,9 @@
     <MESSAGE value="add Junior component" />
     <MESSAGE value="add JuniorPlus component" />
     <MESSAGE value="add hr tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="add hr tags" />
+    <MESSAGE value="add Routes and Route import" />
+    <MESSAGE value="add changes to .idea" />
+    <MESSAGE value="add body font-family and h1 paddings" />
+    <option name="LAST_COMMIT_MESSAGE" value="add body font-family and h1 paddings" />
   </component>
 </project>
