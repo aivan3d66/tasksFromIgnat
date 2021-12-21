@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add all tasks import">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add hr tags">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -41,9 +40,9 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -51,7 +50,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="ts.external.directory.path" value="E:\rjs\tasksFromIgnat\my-app\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="E:\rjs\tasksFromIgnat\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -93,7 +92,7 @@
       <workItem from="1640020843402" duration="4709000" />
       <workItem from="1640067412387" duration="635000" />
       <workItem from="1640084885163" duration="13495000" />
-      <workItem from="1640099055870" duration="671000" />
+      <workItem from="1640099055870" duration="6248000" />
     </task>
     <task id="LOCAL-00001" summary="add correct finalInputClassName">
       <created>1640087256746</created>
@@ -242,7 +241,70 @@
       <option name="project" value="LOCAL" />
       <updated>1640096646811</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add HW5 import">
+      <created>1640110609679</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1640110609679</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add navigation with Navlink">
+      <created>1640110631321</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1640110631321</updated>
+    </task>
+    <task id="LOCAL-00024" summary="delete hr tag">
+      <created>1640110651393</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1640110651393</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add nav styles">
+      <created>1640110667194</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1640110667194</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add RoutesContainer import">
+      <created>1640110714768</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1640110714768</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add substitute BrowserRouter by HashRouter">
+      <created>1640110762695</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1640110762695</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add Junior component">
+      <created>1640110780392</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1640110780392</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add JuniorPlus component">
+      <created>1640110787412</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1640110787412</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add hr tags">
+      <created>1640110802104</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1640110802104</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +315,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -261,10 +335,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add correct finalInputClassName" />
-    <MESSAGE value="add styles to super, errorInputs and error classes" />
-    <MESSAGE value="add default and red btn styles" />
-    <MESSAGE value="add hover and focus btn styles" />
     <MESSAGE value="delete whitespaces" />
     <MESSAGE value="add basic checkbox styles" />
     <MESSAGE value="add checked logic" />
@@ -281,6 +351,15 @@
     <MESSAGE value="add new width and height" />
     <MESSAGE value="add typing of onNewMessageChange" />
     <MESSAGE value="add all tasks import" />
-    <option name="LAST_COMMIT_MESSAGE" value="add all tasks import" />
+    <MESSAGE value="add HW5 import" />
+    <MESSAGE value="add navigation with Navlink" />
+    <MESSAGE value="delete hr tag" />
+    <MESSAGE value="add nav styles" />
+    <MESSAGE value="add RoutesContainer import" />
+    <MESSAGE value="add substitute BrowserRouter by HashRouter" />
+    <MESSAGE value="add Junior component" />
+    <MESSAGE value="add JuniorPlus component" />
+    <MESSAGE value="add hr tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="add hr tags" />
   </component>
 </project>
