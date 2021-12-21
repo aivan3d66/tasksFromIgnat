@@ -23,7 +23,7 @@
 .inputForm input {
     width: 360px;
     padding: 10px;
-    margin: 0 20px 20px 0;
+    margin: 20px 20px 20px 0;
     font-size: 18px;
     border-radius: 5px;
     outline: none;
@@ -47,12 +47,8 @@
 }
 
 .inputButton {
-    min-width: 100px;
     height: 44px;
     font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
 .inputUsersCount {
