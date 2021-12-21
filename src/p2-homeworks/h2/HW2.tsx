@@ -61,14 +61,12 @@ function HW2() {
     return (
         <div className={s.affairsContainer}>
             <h2>Homeworks 2</h2>
-
             {/*should work (должно работать)*/}
             <Affairs
                 data={filteredAffairs}
                 setFilter={setFilter}
                 deleteAffairCallback={deleteAffairCallback}
             />
-
             {/*для личного творчества, могу проверить*/}
             {/*<AlternativeAffairs/>*/}
         </div>
