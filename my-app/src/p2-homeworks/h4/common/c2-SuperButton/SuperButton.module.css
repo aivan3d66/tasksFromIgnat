@@ -1,7 +1,24 @@
 .default {
+    min-width: 100px;
+    padding: 4px;
+    margin: 20px 0;
 
+    border-radius: 5px;
+    border: 1px solid rgba(105, 105, 105, 1);
+
+    cursor: pointer;
 }
 
 .red {
+    min-width: 100px;
+    padding: 4px;
+    margin: 20px 0;
+
+    color: white;
+
     background: red;
+    border-radius: 5px;
+    border: 1px solid red;
+
+    cursor: pointer;
 }
