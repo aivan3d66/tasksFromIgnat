@@ -1,0 +1,19 @@
+.contentWrapper {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.blue {
+    border-bottom: 3px solid blue;
+}
+
+.column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testSpanError {
+    color: blue;
+}
