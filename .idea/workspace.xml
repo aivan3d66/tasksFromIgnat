@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add change in idea">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" afterDir="false" />
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="delete whitespace">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +102,7 @@
       <workItem from="1640084885163" duration="13495000" />
       <workItem from="1640099055870" duration="13747000" />
       <workItem from="1640152504266" duration="598000" />
-      <workItem from="1640153137776" duration="1047000" />
+      <workItem from="1640153137776" duration="1351000" />
     </task>
     <task id="LOCAL-00001" summary="add correct finalInputClassName">
       <created>1640087256746</created>
@@ -377,7 +377,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640117592539</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="add default route">
+      <created>1640154340722</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1640154340722</updated>
+    </task>
+    <task id="LOCAL-00041" summary="delete whitespace">
+      <created>1640154361252</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1640154361252</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,8 +425,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="delete green bg-color" />
-    <MESSAGE value="add new resize value" />
     <MESSAGE value="add import SuperBtn component" />
     <MESSAGE value="add new btn margin value" />
     <MESSAGE value="add new width and height" />
@@ -436,6 +448,8 @@
     <MESSAGE value="add .idea files" />
     <MESSAGE value="add default Route" />
     <MESSAGE value="add change in idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="add change in idea" />
+    <MESSAGE value="add default route" />
+    <MESSAGE value="delete whitespace" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete whitespace" />
   </component>
 </project>
