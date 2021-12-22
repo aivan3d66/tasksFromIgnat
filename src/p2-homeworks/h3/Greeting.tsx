@@ -4,19 +4,19 @@ import {AddUser, OnEnter, SetNameCallback} from './GreetingContainer'
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 
 type GreetingPropsType = {
-  name: string // need to fix any
-  setNameCallback: SetNameCallback // need to fix any
-  addUser: AddUser // need to fix any
+  name: string,
+  setNameCallback: SetNameCallback,
+  addUser: AddUser,
   onEnter: OnEnter,
-  error: string // need to fix any
-  totalUsers: number // need to fix any
+  error: string,
+  totalUsers: number,
 }
 
 // презентационная компонента (для верстальщика)
 const Greeting: React.FC<GreetingPropsType> = (
-  {name, setNameCallback, addUser, error, totalUsers, onEnter} // деструктуризация пропсов
+  {name, setNameCallback, addUser, error, totalUsers, onEnter}
 ) => {
-  const inputClass = error ? s.error : "" // need to fix with (?:)
+  const inputClass = error ? s.error : "";
   const isDisabled = !!error;
 
   return (
@@ -29,13 +29,11 @@ const Greeting: React.FC<GreetingPropsType> = (
       {error
         ? <span className={s.inputErrorText}>{error}</span>
         : null}
-      {/*<button onClick={addUser} className={s.inputButton} disabled={isDisabled}>add</button>*/}
       <SuperButton onClick={addUser} disabled={isDisabled} className={s.inputButton}>
         add
       </SuperButton>
       <span className={s.inputUsersCount}>Total users: {totalUsers}</span>
     </div>
-
   )
 }
 
