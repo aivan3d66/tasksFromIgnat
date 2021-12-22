@@ -2,40 +2,37 @@ import React, {useState} from 'react'
 import SuperSelect from './common/c5-SuperSelect/SuperSelect'
 import SuperRadio from './common/c6-SuperRadio/SuperRadio'
 
-const arr = ['x', 'y', 'z']
+const s = require('./HW7.module.css');
+const arr: Array<string> = ['x', 'y', 'z']
 
 function HW7() {
-    const [value, onChangeOption] = useState(arr[1])
+  const [value, onChangeOption] = useState(arr[1])
 
-    return (
-        <div>
-            <hr/>
-            homeworks 7
+  return (
+    <div className={s.contentWrapper}>
+      <h2>Homeworks 7</h2>
 
-            {/*should work (должно работать)*/}
-            <div>
-                <SuperSelect
-                    options={arr}
-                    value={value}
-                    onChangeOption={onChangeOption}
-                />
-            </div>
-            <div>
-                <SuperRadio
-                    name={'radio'}
-                    options={arr}
-                    value={value}
-                    onChangeOption={onChangeOption}
-                />
-            </div>
-
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperSelect/>*/}
-            {/*<AlternativeSuperRadio/>*/}
-            <hr/>
-        </div>
-    )
+      {/*should work (должно работать)*/}
+      <div className={s.selectorWrapper}>
+        <SuperSelect
+          options={arr}
+          value={value}
+          onChangeOption={onChangeOption}
+        />
+      </div>
+      <div className={s.radioWrapper}>
+        <SuperRadio
+          name={'radio'}
+          options={arr}
+          value={value}
+          onChangeOption={onChangeOption}
+        />
+      </div>
+      {/*для личного творчества, могу проверить*/}
+      {/*<AlternativeSuperSelect/>*/}
+      {/*<AlternativeSuperRadio/>*/}
+    </div>
+  )
 }
 
 export default HW7
