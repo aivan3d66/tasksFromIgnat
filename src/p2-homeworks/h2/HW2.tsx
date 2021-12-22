@@ -15,7 +15,7 @@ type DeleteAffair = (affairs: Array<AffairType>, _id: number) => Array<AffairTyp
 type FilterAffairs = (affairs: Array<AffairType>, filter: AffairPriorityType) => Array<AffairType>;
 
 // constants
-const defaultAffairs: any = [ // need to fix any
+const defaultAffairs: Array<AffairType> = [ // need to fix any
     {_id: 1, name: 'React', priority: 'high'},
     {_id: 2, name: 'anime', priority: 'low'},
     {_id: 3, name: 'games', priority: 'low'},

@@ -9,7 +9,7 @@ export type UserType = {
   name: string // need to fix any
 }
 
-export type AddUserCallback = (name: string) => any
+export type AddUserCallback = (name: string) => void
 
 // уровень работы с глобальными данными
 function HW3() {
