@@ -5,26 +5,27 @@ import s from "./Greeting.module.css";
 
 // types
 export type UserType = {
-  _id: string // need to fix any
-  name: string // need to fix any
+  _id: string
+  name: string
 }
 
 export type AddUserCallback = (name: string) => void
 
 // уровень работы с глобальными данными
 function HW3() {
-  const [users, setUsers] = useState<Array<UserType>>([]) // need to fix any
+  const [users, setUsers] = useState<Array<UserType>>([])
 
-  const addUserCallback: AddUserCallback = (name) => { // need to fix any
-    setUsers([...users, {_id: v1(), name}]); // need to fix
+  const addUserCallback: AddUserCallback = (name) => {
+    setUsers([...users, {_id: v1(), name}]);
   }
 
   return (
     <div className={s.inputForm__wrapper}>
       <h2>Homeworks 3</h2>
-      {/*should work (должно работать)*/}
-      <GreetingContainer users={users} addUserCallback={addUserCallback}/>
-      {/*для личного творчества, могу проверить*/}
+      <GreetingContainer
+        users={users}
+        addUserCallback={addUserCallback}
+      />
       {/*<AlternativeGreeting/>*/}
     </div>
   )
