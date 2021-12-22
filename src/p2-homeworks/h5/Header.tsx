@@ -20,7 +20,7 @@ const Header: React.FC<HeaderProps> = ({menu, onBtnHandler}) => {
       <SuperButton
         onClick={onBtnHandler}
         className={s.menuBtn}>
-        Menu
+        &#9658;
       </SuperButton>
       {
         menu
