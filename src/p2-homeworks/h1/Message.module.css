@@ -1,95 +1,96 @@
 .messageList {
-    width: 500px;
-    height: auto;
-    margin: 0 auto;
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .message {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    width: 100%;
-    height: auto;
-    padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  height: auto;
+  padding: 12px;
 }
 
 .messageImg img {
-    width: 80px;
-    margin: 0 30px 0 0;
-    height: 80px;
-    border-radius: 50%;
-    background-color: #ffffff;
+  width: 80px;
+  margin: 0 40px 0 0;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 1px solid gold;
 }
 
 .messageContent {
-    flex-grow: 2;
-    position: relative;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    width: 200px;
-    min-height: 120px;
-    padding: 18px;
-    margin: 0;
-
-    z-index: 2;
-    background-color: rgba(47, 79, 79, 1);
-    border-radius: 20px 20px 20px 0;
+  flex-grow: 2;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 200px;
+  min-height: 120px;
+  padding: 20px;
+  margin: 0;
+  z-index: 2;
+  background-color: rgba(47, 79, 79, 1);
+  border-radius: 20px 20px 20px 0;
 }
 
 .messageContent::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: 100%;
-    display: block;
-    width: 30px;
-    height: 34px;
-    background: radial-gradient(60px at top left, transparent 49%, rgba(47, 79, 79, 1) 51%) no-repeat right bottom;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 100%;
+  display: block;
+  width: 30px;
+  height: 34px;
+  background: radial-gradient(60px at top left, transparent 49%, rgba(47, 79, 79, 1) 51%) no-repeat right bottom;
 }
 
 .messageContent h3,
 .messageContent p {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .messageContent h3 {
-    margin: 0 0 6px 0;
-    color: rgba(186, 85, 211, 0.8);
+  margin: 0 0 6px 0;
+  color: rgba(186, 85, 211, 0.8);
 }
 
 .messageContent p {
-    font-size: 20px;
-    color: #ffffff;
+  font-size: 20px;
+  color: #ffffff;
 }
 
 .messageText {
-    flex-grow: 2;
-    padding: 0;
-    margin: auto 0 auto 0;
+  flex-grow: 2;
+  padding: 0;
+  margin: auto 0 auto 0;
 }
 
 .messageData {
-    margin: 0 0 0 10px;
-    font-size: 18px;
-    color: rgba(211, 211, 211, 0.6);
+  margin: 0 0 0 10px;
+  font-size: 18px;
+  color: rgba(211, 211, 211, 0.6);
 }
 
 .messageInput {
-    width: 500px;
-    margin: 20px 0 20px 0;
+  width: 100%;
+  margin: 20px 0 20px 0;
 }
 
 .inputField input {
-    width: 490px;
+  width: 100%;
 
-    padding: 10px;
-    resize: none;
-    border: 1px solid #b2b2b2;
+  padding: 10px;
+  resize: none;
+  border: 1px solid #b2b2b2;
 }
 
 .inputBtn button {
-    padding: 6px;
-    margin: 20px 0 20px 0;
+  padding: 6px;
+  margin: 20px 0 20px 0;
 }

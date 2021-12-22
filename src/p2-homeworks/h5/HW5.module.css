@@ -12,21 +12,22 @@ a {
 
 .menuBtn {
   margin: 20px;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .headerContainer {
   display: flex;
   align-items: center;
+  width: 500px;
 }
 
 .navList {
   display: flex;
   justify-content: space-between;
 
-  max-width: 400px;
+  max-width: 100%;
   margin: 10px 0 10px 0;
-  padding: 0 20px;
+  padding: 0;
 
   filter: alpha(opacity=100);
   transform: translate(0);
@@ -34,11 +35,11 @@ a {
 }
 
 .nav__item {
-  min-width: 110px;
+  min-width: 80px;
   padding: 10px 6px;
   margin: 0 10px 0 0;
 
-  font-size: 18px;
+  font-size: 14px;
   text-align: center;
   border: 1px solid darkslategrey;
 

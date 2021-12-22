@@ -8,21 +8,22 @@
 .inputForm__wrapper {
     width: 500px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .inputForm {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 460px;
     align-items: flex-start;
     position: relative;
-
 }
 
 .inputForm input {
-    width: 360px;
+    width: 300px;
     padding: 10px;
-    margin: 20px 20px 20px 0;
+    margin: 20px 0 20px 0;
     font-size: 18px;
     border-radius: 5px;
     outline: none;

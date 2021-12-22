@@ -1,15 +1,18 @@
 .contentWrapper {
     width: 500px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .blue {
+    margin: 20px 0;
     border-bottom: 3px solid blue;
 }
 
 .column {
     position: relative;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
 }

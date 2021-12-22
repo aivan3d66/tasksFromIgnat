@@ -1,12 +1,13 @@
 .affairsContainer {
     width: 500px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .affairs__wrapper {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .affairs__wrapper button {
