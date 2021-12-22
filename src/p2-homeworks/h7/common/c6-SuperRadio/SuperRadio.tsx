@@ -1,5 +1,7 @@
 import React, {ChangeEvent, InputHTMLAttributes, DetailedHTMLProps} from 'react'
 
+const s = require('./SuperRadio.module.css')
+
 type DefaultRadioPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
 type SuperRadioPropsType = DefaultRadioPropsType & {
   options?: Array<string>,
@@ -39,9 +41,9 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
   )) : []
 
   return (
-    <>
+    <div className={s.radioButtons__list}>
       {mappedOptions}
-    </>
+    </div>
   )
 }
 

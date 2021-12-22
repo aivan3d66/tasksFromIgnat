@@ -1,0 +1,24 @@
+.radioButtons__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  margin: 10px 0 10px 0;
+}
+
+.radioButtons__list label {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+.radioButtons__list label:hover,
+.radioButtons__list label:focus {
+  color: gold;
+}
+
+.radioButtons__list input {
+  position: relative;
+  top: 2px;
+}
+
