@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="update changes">
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add basic span styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h2/HW2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h2/HW2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h1/Message.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h1/Message.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h2/Affairs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h2/Affairs.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h3/HW3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h3/HW3.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h4/HW4.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h4/HW4.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c1-SuperInputText/SuperInputText.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c1-SuperInputText/SuperInputText.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +77,16 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -82,6 +97,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -104,49 +124,8 @@
       <workItem from="1640084885163" duration="13495000" />
       <workItem from="1640099055870" duration="13747000" />
       <workItem from="1640152504266" duration="598000" />
-      <workItem from="1640153137776" duration="6744000" />
-    </task>
-    <task id="LOCAL-00001" summary="add correct finalInputClassName">
-      <created>1640087256746</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1640087256746</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add styles to super, errorInputs and error classes">
-      <created>1640087292066</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1640087292066</updated>
-    </task>
-    <task id="LOCAL-00003" summary="delete whitespaces">
-      <created>1640087631042</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1640087631042</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add default and red btn styles">
-      <created>1640087658161</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1640087658161</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add hover and focus btn styles">
-      <created>1640088115989</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1640088115989</updated>
-    </task>
-    <task id="LOCAL-00006" summary="delete whitespaces">
-      <created>1640091027332</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1640091027332</updated>
+      <workItem from="1640153137776" duration="13162000" />
+      <workItem from="1640178237663" duration="2509000" />
     </task>
     <task id="LOCAL-00007" summary="add basic checkbox styles">
       <created>1640091045291</created>
@@ -428,7 +407,70 @@
       <option name="project" value="LOCAL" />
       <updated>1640159520183</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="add typing">
+      <created>1640159992805</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1640159992805</updated>
+    </task>
+    <task id="LOCAL-00048" summary="add error styles">
+      <created>1640160003673</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1640160003673</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add HW6 containers styles">
+      <created>1640178855996</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1640178855996</updated>
+    </task>
+    <task id="LOCAL-00050" summary="add h2 tag and div containers">
+      <created>1640178880185</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1640178880185</updated>
+    </task>
+    <task id="LOCAL-00051" summary="add pencil img">
+      <created>1640178898427</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1640178898427</updated>
+    </task>
+    <task id="LOCAL-00052" summary="add HW6 component">
+      <created>1640178926619</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1640178926619</updated>
+    </task>
+    <task id="LOCAL-00053" summary="add styles and realise callbacks functions">
+      <created>1640178978248</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1640178978248</updated>
+    </task>
+    <task id="LOCAL-00054" summary="add null margin">
+      <created>1640179007135</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1640179007135</updated>
+    </task>
+    <task id="LOCAL-00055" summary="add basic span styles">
+      <created>1640179024577</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1640179024577</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,14 +504,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="add HW5 import" />
-    <MESSAGE value="add navigation with Navlink" />
-    <MESSAGE value="delete hr tag" />
-    <MESSAGE value="add nav styles" />
-    <MESSAGE value="add RoutesContainer import" />
-    <MESSAGE value="add substitute BrowserRouter by HashRouter" />
-    <MESSAGE value="add Junior component" />
-    <MESSAGE value="add JuniorPlus component" />
     <MESSAGE value="add hr tags" />
     <MESSAGE value="add Routes and Route import" />
     <MESSAGE value="add changes to .idea" />
@@ -484,9 +518,17 @@
     <MESSAGE value="delete whitespace" />
     <MESSAGE value="add some error styles" />
     <MESSAGE value="add menu arrow" />
-    <MESSAGE value="add error styles" />
     <MESSAGE value="delete comments" />
     <MESSAGE value="update changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="update changes" />
+    <MESSAGE value="add typing" />
+    <MESSAGE value="add error styles" />
+    <MESSAGE value="add HW6 containers styles" />
+    <MESSAGE value="add h2 tag and div containers" />
+    <MESSAGE value="add pencil img" />
+    <MESSAGE value="add HW6 component" />
+    <MESSAGE value="add styles and realise callbacks functions" />
+    <MESSAGE value="add null margin" />
+    <MESSAGE value="add basic span styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="add basic span styles" />
   </component>
 </project>
