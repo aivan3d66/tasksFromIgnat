@@ -1,5 +1,7 @@
 import React, {SelectHTMLAttributes, DetailedHTMLProps, ChangeEvent} from 'react'
 
+const s = require('./SuperSelect.module.css');
+
 type DefaultSelectPropsType = DetailedHTMLProps<SelectHTMLAttributes<HTMLSelectElement>, HTMLSelectElement>
 type SuperSelectPropsType = DefaultSelectPropsType & {
   options?: Array<string>,
@@ -26,7 +28,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
   }
 
   return (
-    <select onChange={onChangeCallback} {...restProps}>
+    <select onChange={onChangeCallback} {...restProps} className={s.select__list}>
       {mappedOptions}
     </select>
   )
