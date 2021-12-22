@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add basic span styles">
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add onChangeCallback logic, types and select attributes">
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c5-SuperSelect/SuperSelect.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h1/Message.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h1/Message.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h2/Affairs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h2/Affairs.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h3/HW3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h3/HW3.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h4/HW4.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h4/HW4.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c1-SuperInputText/SuperInputText.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c1-SuperInputText/SuperInputText.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c5-SuperSelect/SuperSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c5-SuperSelect/SuperSelect.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,84 +121,7 @@
       <workItem from="1640099055870" duration="13747000" />
       <workItem from="1640152504266" duration="598000" />
       <workItem from="1640153137776" duration="13162000" />
-      <workItem from="1640178237663" duration="2509000" />
-    </task>
-    <task id="LOCAL-00007" summary="add basic checkbox styles">
-      <created>1640091045291</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1640091045291</updated>
-    </task>
-    <task id="LOCAL-00008" summary="add checked logic">
-      <created>1640091087235</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1640091087235</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add refactoring">
-      <created>1640091104007</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1640091104007</updated>
-    </task>
-    <task id="LOCAL-00010" summary="delete error in showAlert">
-      <created>1640091234406</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1640091234406</updated>
-    </task>
-    <task id="LOCAL-00011" summary="add fix of checkbox handler">
-      <created>1640091508923</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1640091508923</updated>
-    </task>
-    <task id="LOCAL-00012" summary="add background image">
-      <created>1640092367214</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1640092367214</updated>
-    </task>
-    <task id="LOCAL-00013" summary="add new image">
-      <created>1640092388458</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1640092388458</updated>
-    </task>
-    <task id="LOCAL-00014" summary="add new buttons styles">
-      <created>1640092976316</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1640092976316</updated>
-    </task>
-    <task id="LOCAL-00015" summary="delete green bg-color">
-      <created>1640093956399</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1640093956399</updated>
-    </task>
-    <task id="LOCAL-00016" summary="add new resize value">
-      <created>1640094182361</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1640094182361</updated>
-    </task>
-    <task id="LOCAL-00017" summary="add import SuperBtn component">
-      <created>1640095430537</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1640095430537</updated>
+      <workItem from="1640178237663" duration="8850000" />
     </task>
     <task id="LOCAL-00018" summary="add new btn margin value">
       <created>1640095460573</created>
@@ -470,7 +389,84 @@
       <option name="project" value="LOCAL" />
       <updated>1640179024577</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="add new padding value">
+      <created>1640180833124</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1640180833124</updated>
+    </task>
+    <task id="LOCAL-00057" summary="add new position of error">
+      <created>1640180848924</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1640180848924</updated>
+    </task>
+    <task id="LOCAL-00058" summary="delete comments">
+      <created>1640180863578</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1640180863578</updated>
+    </task>
+    <task id="LOCAL-00059" summary="delete comments">
+      <created>1640180872872</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1640180872872</updated>
+    </task>
+    <task id="LOCAL-00060" summary="add update of changes">
+      <created>1640180891889</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1640180891889</updated>
+    </task>
+    <task id="LOCAL-00061" summary="add contentWrapper styles">
+      <created>1640186084881</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1640186084881</updated>
+    </task>
+    <task id="LOCAL-00062" summary="add contentWrapper, h2 and typing">
+      <created>1640187000462</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1640187000462</updated>
+    </task>
+    <task id="LOCAL-00063" summary="add HW7 import">
+      <created>1640187020929</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1640187020929</updated>
+    </task>
+    <task id="LOCAL-00064" summary="delete comments">
+      <created>1640187053318</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1640187053318</updated>
+    </task>
+    <task id="LOCAL-00065" summary="add onChangeCallback logic, types and radio attributes">
+      <created>1640187094231</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1640187094231</updated>
+    </task>
+    <task id="LOCAL-00066" summary="add onChangeCallback logic, types and select attributes">
+      <created>1640187110155</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1640187110155</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,21 +500,12 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="add hr tags" />
-    <MESSAGE value="add Routes and Route import" />
-    <MESSAGE value="add changes to .idea" />
-    <MESSAGE value="add body font-family and h1 paddings" />
-    <MESSAGE value="add SuperBtn import and ternary operator" />
-    <MESSAGE value="add basic styles and animations" />
-    <MESSAGE value="add useState" />
-    <MESSAGE value="add .idea files" />
     <MESSAGE value="add default Route" />
     <MESSAGE value="add change in idea" />
     <MESSAGE value="add default route" />
     <MESSAGE value="delete whitespace" />
     <MESSAGE value="add some error styles" />
     <MESSAGE value="add menu arrow" />
-    <MESSAGE value="delete comments" />
     <MESSAGE value="update changes" />
     <MESSAGE value="add typing" />
     <MESSAGE value="add error styles" />
@@ -529,6 +516,15 @@
     <MESSAGE value="add styles and realise callbacks functions" />
     <MESSAGE value="add null margin" />
     <MESSAGE value="add basic span styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add basic span styles" />
+    <MESSAGE value="add new padding value" />
+    <MESSAGE value="add new position of error" />
+    <MESSAGE value="add update of changes" />
+    <MESSAGE value="add contentWrapper styles" />
+    <MESSAGE value="add contentWrapper, h2 and typing" />
+    <MESSAGE value="add HW7 import" />
+    <MESSAGE value="delete comments" />
+    <MESSAGE value="add onChangeCallback logic, types and radio attributes" />
+    <MESSAGE value="add onChangeCallback logic, types and select attributes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add onChangeCallback logic, types and select attributes" />
   </component>
 </project>
