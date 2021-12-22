@@ -4,9 +4,101 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add .idea files">
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add change in idea">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.idea/my-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/email.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p1-main/m1-ui/u1-app/App.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p1-main/m1-ui/u1-app/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p1-main/m1-ui/u1-app/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p1-main/m1-ui/u1-app/redux/reducer/DialogReducer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p1-main/m1-ui/u1-app/redux/redux-store.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h1/HW1.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h1/Message.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h1/Message.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h1/MessagesContainer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h1/MessagesList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h1/iconUser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h1/tests/Message.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h10/HW10.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h10/bll/loadingReducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h10/bll/store.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h11/HW11.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h11/common/c7-SuperRange/SuperRange.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h11/common/c7-SuperRange/SuperRange.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h11/common/c8-SuperDoubleRange/SuperDoubleRange.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h12/HW12.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h12/HW12.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h12/bll/themeReducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h2/Affair.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h2/Affairs.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h2/Affairs.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h2/AlternativeAffairs.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h2/HW2.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h2/tests/deleteAffair.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h2/tests/filterAffairs.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h3/AlternativeGreeting.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h3/Greeting.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h3/Greeting.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h3/GreetingContainer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h3/HW3.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h4/HW4.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h4/HW4.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h4/common/c1-SuperInputText/AlternativeSuperInputText.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h4/common/c1-SuperInputText/SuperInputText.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h4/common/c1-SuperInputText/SuperInputText.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h4/common/c2-SuperButton/AlternativeSuperButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h4/common/c2-SuperButton/SuperButton.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h4/common/c2-SuperButton/SuperButton.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h4/common/c3-SuperCheckbox/AlternativeSuperCheckbox.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h4/common/c3-SuperCheckbox/SuperCheckbox.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h4/common/c3-SuperCheckbox/SuperCheckbox.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h5/HW5.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h5/Header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h5/Routes.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h5/pages/Error404.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h5/pages/PreJunior.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h6/HW6.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h6/common/c4-SuperEditableSpan/AlternativeSuperEditableSpan.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h6/common/c4-SuperEditableSpan/SuperEditableSpan.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h6/localStorage/localStorage.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h7/HW7.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h7/common/c5-SuperSelect/AlternativeSuperSelect.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h7/common/c5-SuperSelect/SuperSelect.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h7/common/c6-SuperRadio/AlternativeSuperRadio.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h8/HW8.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h8/bll/homeWorkReducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h8/bll/tests/homeWorkReducer.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h9/AlternativeClock.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h9/Clock.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/p2-homeworks/h9/HW9.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/serviceWorker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +184,9 @@
       <workItem from="1640020843402" duration="4709000" />
       <workItem from="1640067412387" duration="635000" />
       <workItem from="1640084885163" duration="13495000" />
-      <workItem from="1640099055870" duration="12915000" />
+      <workItem from="1640099055870" duration="13747000" />
+      <workItem from="1640152504266" duration="598000" />
+      <workItem from="1640153137776" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="add correct finalInputClassName">
       <created>1640087256746</created>
@@ -353,7 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640116343585</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="add default Route">
+      <created>1640117570937</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1640117570937</updated>
+    </task>
+    <task id="LOCAL-00039" summary="add change in idea">
+      <created>1640117592539</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1640117592539</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,8 +492,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add new image" />
-    <MESSAGE value="add new buttons styles" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="delete green bg-color" />
     <MESSAGE value="add new resize value" />
     <MESSAGE value="add import SuperBtn component" />
@@ -409,6 +518,8 @@
     <MESSAGE value="add basic styles and animations" />
     <MESSAGE value="add useState" />
     <MESSAGE value="add .idea files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add .idea files" />
+    <MESSAGE value="add default Route" />
+    <MESSAGE value="add change in idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="add change in idea" />
   </component>
 </project>
