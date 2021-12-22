@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="delete whitespace">
-      <change afterPath="$PROJECT_DIR$/src/404err.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/error.svg" afterDir="false" />
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="update changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Error404.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Error404.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/PreJunior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/PreJunior.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h2/HW2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h2/HW2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h3/HW3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h3/HW3.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +104,7 @@
       <workItem from="1640084885163" duration="13495000" />
       <workItem from="1640099055870" duration="13747000" />
       <workItem from="1640152504266" duration="598000" />
-      <workItem from="1640153137776" duration="6096000" />
+      <workItem from="1640153137776" duration="6744000" />
     </task>
     <task id="LOCAL-00001" summary="add correct finalInputClassName">
       <created>1640087256746</created>
@@ -398,7 +393,42 @@
       <option name="project" value="LOCAL" />
       <updated>1640154361252</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="add some error styles">
+      <created>1640159373584</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1640159373584</updated>
+    </task>
+    <task id="LOCAL-00043" summary="add menu arrow">
+      <created>1640159395466</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1640159395466</updated>
+    </task>
+    <task id="LOCAL-00044" summary="add error styles">
+      <created>1640159450157</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1640159450157</updated>
+    </task>
+    <task id="LOCAL-00045" summary="delete comments">
+      <created>1640159465731</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1640159465731</updated>
+    </task>
+    <task id="LOCAL-00046" summary="update changes">
+      <created>1640159520183</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1640159520183</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,11 +462,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="add import SuperBtn component" />
-    <MESSAGE value="add new btn margin value" />
-    <MESSAGE value="add new width and height" />
-    <MESSAGE value="add typing of onNewMessageChange" />
-    <MESSAGE value="add all tasks import" />
     <MESSAGE value="add HW5 import" />
     <MESSAGE value="add navigation with Navlink" />
     <MESSAGE value="delete hr tag" />
@@ -457,6 +482,11 @@
     <MESSAGE value="add change in idea" />
     <MESSAGE value="add default route" />
     <MESSAGE value="delete whitespace" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete whitespace" />
+    <MESSAGE value="add some error styles" />
+    <MESSAGE value="add menu arrow" />
+    <MESSAGE value="add error styles" />
+    <MESSAGE value="delete comments" />
+    <MESSAGE value="update changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="update changes" />
   </component>
 </project>
