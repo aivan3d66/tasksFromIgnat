@@ -20,37 +20,43 @@ const initialPeople: Array<UserType> = [
 ]
 
 function HW8() {
-  const [people, setPeople] = useState<Array<UserType>>(initialPeople) // need to fix any
+  const [people, setPeople] = useState<Array<UserType>>(initialPeople);
 
   const finalPeople = people.map((p: UserType) => (
-    <div key={p._id}>
-      {p.name}, {p.age}
-    </div>
+    <tbody key={p._id}>
+      <tr>
+        <td className={s.leftCol}>name:</td>
+        <td>{p.name},</td>
+      </tr>
+      <tr>
+        <td className={s.leftCol}>age:</td>
+        <td>{p.age}</td>
+      </tr>
+    </tbody>
   ))
 
   const sortUp = () => setPeople(homeWorkReducer(initialPeople, {
     type: FILTER.SORT,
     payload: ACTION_PAYLOAD.UP
   }))
-
   const sortDown = () => setPeople(homeWorkReducer(initialPeople, {
     type: FILTER.SORT,
     payload: ACTION_PAYLOAD.DOWN
   }))
-
   const sortMin = () => setPeople(homeWorkReducer(initialPeople, {
     type: FILTER.CHECK,
     payload: 18
   }))
 
-  console.log( people )
-
   return (
     <div className={s.contentWrapper}>
       <h2>Homeworks 8</h2>
-      {finalPeople}
+      <table className={s.peopleList}>
+        <caption>Some user information:</caption>
+        {finalPeople}
+      </table>
 
-      <div>
+      <div className={s.controlWrapper}>
         <div>
           <SuperButton onClick={sortUp}>sort up</SuperButton>
         </div>

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add Wrapper styles">
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add new width of radiobutton">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,28 +132,7 @@
       <workItem from="1640152504266" duration="598000" />
       <workItem from="1640153137776" duration="13162000" />
       <workItem from="1640178237663" duration="13100000" />
-      <workItem from="1640282244698" duration="7591000" />
-    </task>
-    <task id="LOCAL-00025" summary="add nav styles">
-      <created>1640110667194</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1640110667194</updated>
-    </task>
-    <task id="LOCAL-00026" summary="add RoutesContainer import">
-      <created>1640110714768</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1640110714768</updated>
-    </task>
-    <task id="LOCAL-00027" summary="add substitute BrowserRouter by HashRouter">
-      <created>1640110762695</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1640110762695</updated>
+      <workItem from="1640282244698" duration="8630000" />
     </task>
     <task id="LOCAL-00028" summary="add Junior component">
       <created>1640110780392</created>
@@ -478,7 +456,28 @@
       <option name="project" value="LOCAL" />
       <updated>1640289700986</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="add sortUp, sortDown, sortMin functions with typing">
+      <created>1640289866660</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1640289866660</updated>
+    </task>
+    <task id="LOCAL-00075" summary="add HW8 import">
+      <created>1640289880782</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1640289880782</updated>
+    </task>
+    <task id="LOCAL-00076" summary="add new width of radiobutton">
+      <created>1640289902709</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1640289902709</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,9 +511,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="add typing" />
-    <MESSAGE value="add error styles" />
-    <MESSAGE value="add HW6 containers styles" />
     <MESSAGE value="add h2 tag and div containers" />
     <MESSAGE value="add pencil img" />
     <MESSAGE value="add HW6 component" />
@@ -537,7 +533,10 @@
     <MESSAGE value="add unit test for sortDown" />
     <MESSAGE value="add homeWorkReducer with actions, clean functions and typing" />
     <MESSAGE value="add Wrapper styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Wrapper styles" />
+    <MESSAGE value="add sortUp, sortDown, sortMin functions with typing" />
+    <MESSAGE value="add HW8 import" />
+    <MESSAGE value="add new width of radiobutton" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new width of radiobutton" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
