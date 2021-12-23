@@ -3,3 +3,22 @@
   margin: 0 auto;
   padding: 0 20px;
 }
+
+.peopleList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.peopleList tbody {
+  display: flex;
+}
+
+.leftCol {
+  color: rgba(52, 152, 192, 1);
+}
+
+.controlWrapper {
+  display: flex;
+  justify-content: space-between;
+}
