@@ -3,19 +3,26 @@ import Affairs from './Affairs'
 import s from './Affairs.module.css'
 
 // types
-export type AffairPriorityType = typeof FILTER_HIGH | typeof FILTER_MIDDLE | typeof FILTER_LOW; // need to fix any
 export type AffairType = {
   _id: number,
   name: string,
   priority: string,
 }
-export type FilterType = typeof FILTER_ALL | AffairPriorityType
+
+export type AffairPriority = {
+  FILTER_ALL: string,
+  FILTER_HIGH: string,
+  FILTER_MIDDLE: string,
+  FILTER_LOW: string
+}
+
+export type FilterType = typeof FILTERS.FILTER_ALL | AffairPriority
 
 type DeleteAffair = (affairs: Array<AffairType>, _id: number) => Array<AffairType>;
-type FilterAffairs = (affairs: Array<AffairType>, filter: AffairPriorityType) => Array<AffairType>;
+type FilterAffairs = (affairs: Array<AffairType>, filter: FilterType) => Array<AffairType>;
 
 // constants
-const defaultAffairs: Array<AffairType> = [ // need to fix any
+const defaultAffairs: Array<AffairType> = [
     {_id: 1, name: 'React', priority: 'high'},
     {_id: 2, name: 'anime', priority: 'low'},
     {_id: 3, name: 'games', priority: 'low'},
@@ -23,40 +30,42 @@ const defaultAffairs: Array<AffairType> = [ // need to fix any
     {_id: 5, name: 'html & css', priority: 'middle'},
 ]
 
-export const FILTER_ALL: string = "all";
-export const FILTER_HIGH: string = "high";
-export const FILTER_MIDDLE: string = "middle";
-export const FILTER_LOW: string = "low";
+export const FILTERS: AffairPriority = {
+  FILTER_ALL: 'all',
+  FILTER_HIGH: 'high',
+  FILTER_MIDDLE: 'middle',
+  FILTER_LOW: 'low'
+}
 
 // pure helper functions
-export const filterAffairs: FilterAffairs = (affairs, filter) => { // need to fix any
+export const filterAffairs: FilterAffairs = (affairs, filter) => {
   switch (filter) {
-    case FILTER_ALL:
+    case FILTERS.FILTER_ALL:
       return affairs;
 
-    case FILTER_HIGH:
-      return affairs.filter(a => a.priority === FILTER_HIGH);
+    case FILTERS.FILTER_HIGH:
+      return affairs.filter(a => a.priority === FILTERS.FILTER_HIGH);
 
-    case FILTER_MIDDLE:
-      return affairs.filter(a => a.priority === FILTER_MIDDLE)
+    case FILTERS.FILTER_MIDDLE:
+      return affairs.filter(a => a.priority === FILTERS.FILTER_MIDDLE)
 
-    case FILTER_LOW:
-      return affairs.filter(a => a.priority === FILTER_LOW)
+    case FILTERS.FILTER_LOW:
+      return affairs.filter(a => a.priority === FILTERS.FILTER_LOW)
 
     default:
       return affairs
   }
 }
 
-export const deleteAffair:DeleteAffair = (affairs, _id) => { // need to fix any
+export const deleteAffair:DeleteAffair = (affairs, _id) => {
   return affairs.filter(a => a._id !== _id);
 }
 
 function HW2() {
-    const [affairs, setAffairs] = useState<Array<AffairType>>(defaultAffairs) // need to fix any
-    const [filter, setFilter] = useState<FilterType>(FILTER_ALL)
-    const filteredAffairs = filterAffairs(affairs, filter)
-    const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id)) // need to fix any
+    const [affairs, setAffairs] = useState<Array<AffairType>>(defaultAffairs);
+    const [filter, setFilter] = useState<FilterType>(FILTERS.FILTER_ALL);
+    const filteredAffairs = filterAffairs(affairs, filter);
+    const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id));
 
     return (
         <div className={s.affairsContainer}>
