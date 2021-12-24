@@ -16,28 +16,22 @@ const HW10 = (props: HW10props) => {
     setTimeout(props.loadingStop, 2000);
   };
 
-    return (
-        <div>
-            <hr/>
-            homeworks 10
-
-            {/*should work (должно работать)*/}
-            {loading
-                ? (
-                    <div>крутилка...</div>
-                ) : (
-                    <div>
-                        <SuperButton onClick={setLoading}>set loading...</SuperButton>
-                    </div>
-                )
-            }
-
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<Alternative/>*/}
-            <hr/>
-        </div>
-    )
+  return (
+    <div className={s.contentWrapper}>
+      <h2>Homeworks 10</h2>
+      {props.isLoading
+        ? (
+          <Preloader/>
+        ) : (
+          <div>
+            <SuperButton onClick={setLoading}>set loading...</SuperButton>
+          </div>
+        )
+      }
+      {/*для личного творчества, могу проверить*/}
+      {/*<Alternative/>*/}
+    </div>
+  )
 }
 
 export default HW10
