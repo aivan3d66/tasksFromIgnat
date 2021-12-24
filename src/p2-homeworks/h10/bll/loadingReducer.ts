@@ -26,4 +26,5 @@ export const loadingReducer = (state = initState, action: ActionReducer): Initia
   }
 }
 
-export const loadingAC = (): any => {} // fix any
+export const loadingAC: LoadingAC = () => ({type: ACTION.IS_LOADING});
+export const loadingStopAC: LoadingStopAC = () => ({type: ACTION.STOP_LOADING});
