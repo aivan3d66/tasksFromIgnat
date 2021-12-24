@@ -10,6 +10,11 @@
   width: 100%;
 }
 
+.peopleList caption {
+  margin:  0 0 20px 0;
+  text-align: left;
+}
+
 .peopleList tbody {
   display: flex;
 }
@@ -21,4 +26,8 @@
 .controlWrapper {
   display: flex;
   justify-content: space-between;
+}
+
+.controlBtn {
+  min-width: 80px;
 }
