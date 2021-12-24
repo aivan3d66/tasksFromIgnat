@@ -1,15 +1,20 @@
-import React from 'react'
-import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
+import React from 'react';
+import SuperButton from '../h4/common/c2-SuperButton/SuperButton';
+import Preloader from "./Preloader";
 
-function HW10() {
-    // useSelector, useDispatch
-    const loading = false
+const s = require('./HW10.module.css');
 
-    const setLoading = () => {
-        // dispatch
-        // setTimeout
-        console.log('loading...')
-    };
+type HW10props = {
+  loading: () => void,
+  loadingStop: () => void,
+  isLoading: boolean,
+}
+
+const HW10 = (props: HW10props) => {
+  const setLoading = () => {
+    props.loading();
+    setTimeout(props.loadingStop, 2000);
+  };
 
     return (
         <div>
