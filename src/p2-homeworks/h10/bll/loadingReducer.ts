@@ -1,4 +1,8 @@
-const initState = {
+export type InitialState = {isLoading: boolean};
+export type ActionObj = {IS_LOADING: string, STOP_LOADING: string};
+export type ActionReducer = {type: string}
+export type LoadingAC = () => ActionReducer;
+export type LoadingStopAC = () => ActionReducer;
 
 }
 
