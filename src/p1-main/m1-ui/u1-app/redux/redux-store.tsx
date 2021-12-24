@@ -1,6 +1,6 @@
 import {createStore, combineReducers} from "redux";
-import {messagesReducer} from "./reducer/DialogReducer";
-import {loadingReducer} from "../../../../p2-homeworks/h10/bll/loadingReducer";
+import {messagesReducer} from "./reducer/messageReducer";
+import {loadingReducer} from "./reducer/loadingReducer";
 
 const reducers = combineReducers({
   messagePage: messagesReducer,
