@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add HW9 import">
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/HW10.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/Preloader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/PreloaderContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/Spinner.svg" afterDir="false" />
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add border-radius">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/redux/reducer/DialogReducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/redux/reducer/messageReducer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/redux/redux-store.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/redux/redux-store.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h10/HW10.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/HW10.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/loadingReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/loadingReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h1/Message.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h1/Message.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h1/MessagesContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h1/MessagesContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h1/MessagesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h1/MessagesList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h10/PreloaderContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/PreloaderContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h10/Spinner.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/Spinner.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +70,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\rjs\tasksFromIgnat\src\p1-main\m1-ui\u1-app\redux\reducer" />
       <recent name="E:\rjs\tasksFromIgnat\my-app\src\p2-homeworks\h1" />
     </key>
   </component>
@@ -142,154 +140,7 @@
       <workItem from="1640178237663" duration="13100000" />
       <workItem from="1640282244698" duration="8736000" />
       <workItem from="1640332379179" duration="4352000" />
-      <workItem from="1640349322391" duration="7081000" />
-    </task>
-    <task id="LOCAL-00036" summary="add useState">
-      <created>1640116320022</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1640116320022</updated>
-    </task>
-    <task id="LOCAL-00037" summary="add .idea files">
-      <created>1640116343584</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1640116343585</updated>
-    </task>
-    <task id="LOCAL-00038" summary="add default Route">
-      <created>1640117570937</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1640117570937</updated>
-    </task>
-    <task id="LOCAL-00039" summary="add change in idea">
-      <created>1640117592539</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1640117592539</updated>
-    </task>
-    <task id="LOCAL-00040" summary="add default route">
-      <created>1640154340722</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1640154340722</updated>
-    </task>
-    <task id="LOCAL-00041" summary="delete whitespace">
-      <created>1640154361252</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1640154361252</updated>
-    </task>
-    <task id="LOCAL-00042" summary="add some error styles">
-      <created>1640159373584</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1640159373584</updated>
-    </task>
-    <task id="LOCAL-00043" summary="add menu arrow">
-      <created>1640159395466</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1640159395466</updated>
-    </task>
-    <task id="LOCAL-00044" summary="add error styles">
-      <created>1640159450157</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1640159450157</updated>
-    </task>
-    <task id="LOCAL-00045" summary="delete comments">
-      <created>1640159465731</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1640159465731</updated>
-    </task>
-    <task id="LOCAL-00046" summary="update changes">
-      <created>1640159520183</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1640159520183</updated>
-    </task>
-    <task id="LOCAL-00047" summary="add typing">
-      <created>1640159992805</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1640159992805</updated>
-    </task>
-    <task id="LOCAL-00048" summary="add error styles">
-      <created>1640160003673</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1640160003673</updated>
-    </task>
-    <task id="LOCAL-00049" summary="add HW6 containers styles">
-      <created>1640178855996</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1640178855996</updated>
-    </task>
-    <task id="LOCAL-00050" summary="add h2 tag and div containers">
-      <created>1640178880185</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1640178880185</updated>
-    </task>
-    <task id="LOCAL-00051" summary="add pencil img">
-      <created>1640178898427</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1640178898427</updated>
-    </task>
-    <task id="LOCAL-00052" summary="add HW6 component">
-      <created>1640178926619</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1640178926619</updated>
-    </task>
-    <task id="LOCAL-00053" summary="add styles and realise callbacks functions">
-      <created>1640178978248</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1640178978248</updated>
-    </task>
-    <task id="LOCAL-00054" summary="add null margin">
-      <created>1640179007135</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1640179007135</updated>
-    </task>
-    <task id="LOCAL-00055" summary="add basic span styles">
-      <created>1640179024577</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1640179024577</updated>
-    </task>
-    <task id="LOCAL-00056" summary="add new padding value">
-      <created>1640180833124</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1640180833124</updated>
+      <workItem from="1640349322391" duration="9783000" />
     </task>
     <task id="LOCAL-00057" summary="add new position of error">
       <created>1640180848924</created>
@@ -487,7 +338,154 @@
       <option name="project" value="LOCAL" />
       <updated>1640336569404</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="delete unused imports">
+      <created>1640375852060</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1640375852060</updated>
+    </task>
+    <task id="LOCAL-00086" summary="add container styles">
+      <created>1640375865815</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1640375865815</updated>
+    </task>
+    <task id="LOCAL-00087" summary="add props with typing">
+      <created>1640375904213</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1640375904213</updated>
+    </task>
+    <task id="LOCAL-00088" summary="add className, h2, isLoading props and Preloader import">
+      <created>1640375938389</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1640375938389</updated>
+    </task>
+    <task id="LOCAL-00089" summary="add PreloaderContainer import as HW10">
+      <created>1640375973857</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1640375973857</updated>
+    </task>
+    <task id="LOCAL-00090" summary="add loadingReducer typing">
+      <created>1640376002354</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1640376002354</updated>
+    </task>
+    <task id="LOCAL-00091" summary="add action obj">
+      <created>1640376015300</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1640376015300</updated>
+    </task>
+    <task id="LOCAL-00092" summary="add loadingReducer logic">
+      <created>1640376029638</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1640376029638</updated>
+    </task>
+    <task id="LOCAL-00093" summary="add loadingReducer action creators">
+      <created>1640376049182</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1640376049182</updated>
+    </task>
+    <task id="LOCAL-00094" summary="add Preloader component">
+      <created>1640376062806</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1640376062806</updated>
+    </task>
+    <task id="LOCAL-00095" summary="add PreloaderContainer with mapStateToProps, mapDispatchToProps and connect function">
+      <created>1640376088655</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1640376088655</updated>
+    </task>
+    <task id="LOCAL-00096" summary="add loadingReducer import">
+      <created>1640376123095</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1640376123095</updated>
+    </task>
+    <task id="LOCAL-00097" summary="add spinner svg">
+      <created>1640376136467</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1640376136467</updated>
+    </task>
+    <task id="LOCAL-00098" summary="add updates">
+      <created>1640376180992</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1640376180992</updated>
+    </task>
+    <task id="LOCAL-00099" summary="delete unnecessary comments">
+      <created>1640378193687</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1640378193687</updated>
+    </task>
+    <task id="LOCAL-00100" summary="add h1 color">
+      <created>1640378207121</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1640378207121</updated>
+    </task>
+    <task id="LOCAL-00101" summary="add refactoring of filter obj">
+      <created>1640378240483</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1640378240483</updated>
+    </task>
+    <task id="LOCAL-00102" summary="delete comment">
+      <created>1640378292808</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1640378292808</updated>
+    </task>
+    <task id="LOCAL-00103" summary="add loaderSpinner styles">
+      <created>1640378302881</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1640378302881</updated>
+    </task>
+    <task id="LOCAL-00104" summary="replace file">
+      <created>1640378359818</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1640378359818</updated>
+    </task>
+    <task id="LOCAL-00105" summary="add border-radius">
+      <created>1640378371220</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1640378371220</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,32 +519,32 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="add update of changes" />
-    <MESSAGE value="add contentWrapper styles" />
-    <MESSAGE value="add contentWrapper, h2 and typing" />
-    <MESSAGE value="add HW7 import" />
-    <MESSAGE value="delete comments" />
-    <MESSAGE value="add onChangeCallback logic, types and radio attributes" />
-    <MESSAGE value="add onChangeCallback logic, types and select attributes" />
-    <MESSAGE value="add classNames and radio styles" />
-    <MESSAGE value="add classNames and select styles" />
-    <MESSAGE value="add changes update" />
-    <MESSAGE value="add unit test for sortUp" />
-    <MESSAGE value="add unit test for sortDown" />
-    <MESSAGE value="add homeWorkReducer with actions, clean functions and typing" />
-    <MESSAGE value="add Wrapper styles" />
-    <MESSAGE value="add sortUp, sortDown, sortMin functions with typing" />
-    <MESSAGE value="add HW8 import" />
-    <MESSAGE value="add new width of radiobutton" />
-    <MESSAGE value="add peopleList styles" />
-    <MESSAGE value="add table tag" />
-    <MESSAGE value="add timer logic" />
-    <MESSAGE value="add caption margins" />
     <MESSAGE value="add SuperButton classnames" />
     <MESSAGE value="add HW9 styles" />
     <MESSAGE value="add contentWrapper and h2 title" />
     <MESSAGE value="add HW9 import" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HW9 import" />
+    <MESSAGE value="delete unused imports" />
+    <MESSAGE value="add container styles" />
+    <MESSAGE value="add props with typing" />
+    <MESSAGE value="add className, h2, isLoading props and Preloader import" />
+    <MESSAGE value="add PreloaderContainer import as HW10" />
+    <MESSAGE value="add loadingReducer typing" />
+    <MESSAGE value="add action obj" />
+    <MESSAGE value="add loadingReducer logic" />
+    <MESSAGE value="add loadingReducer action creators" />
+    <MESSAGE value="add Preloader component" />
+    <MESSAGE value="add PreloaderContainer with mapStateToProps, mapDispatchToProps and connect function" />
+    <MESSAGE value="add loadingReducer import" />
+    <MESSAGE value="add spinner svg" />
+    <MESSAGE value="add updates" />
+    <MESSAGE value="delete unnecessary comments" />
+    <MESSAGE value="add h1 color" />
+    <MESSAGE value="add refactoring of filter obj" />
+    <MESSAGE value="delete comment" />
+    <MESSAGE value="add loaderSpinner styles" />
+    <MESSAGE value="replace file" />
+    <MESSAGE value="add border-radius" />
+    <option name="LAST_COMMIT_MESSAGE" value="add border-radius" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
