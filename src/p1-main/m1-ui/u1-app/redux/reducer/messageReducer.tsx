@@ -33,10 +33,10 @@ const initialState: MessagesType = {
   messages: [
     {
       id: 1,
-      name: "MrEpickMann",
-      message: "Халоу",
+      name: "Паштет",
+      message: "Иди своей дорогой, сталкер!",
       time: '22:00',
-      avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg'
+      avatar: 'https://gamebomb.ru/files/galleries/001/4/4c/354764.jpg'
     },
   ],
   newMessageText: '',
