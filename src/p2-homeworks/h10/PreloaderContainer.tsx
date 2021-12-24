@@ -1,5 +1,5 @@
 import {connect} from "react-redux";
-import {InitialState, loadingAC, loadingStopAC} from "./bll/loadingReducer";
+import {InitialState, loadingAC, loadingStopAC} from "../../p1-main/m1-ui/u1-app/redux/reducer/loadingReducer";
 import HW10 from "./HW10";
 
 type MapStateToProps = {

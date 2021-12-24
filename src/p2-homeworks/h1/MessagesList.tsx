@@ -1,6 +1,6 @@
 import React, {ChangeEvent} from 'react';
 import Message from "./Message";
-import {MessageItemType} from "../../p1-main/m1-ui/u1-app/redux/reducer/DialogReducer";
+import {MessageItemType} from "../../p1-main/m1-ui/u1-app/redux/reducer/messageReducer";
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 
 const style = require('./Message.module.css');

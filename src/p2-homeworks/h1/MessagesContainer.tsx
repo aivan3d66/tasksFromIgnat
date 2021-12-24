@@ -2,7 +2,7 @@ import {
   MessagesType,
   sendMessageCreator,
   updateNewMessageTextCreator
-} from "../../p1-main/m1-ui/u1-app/redux/reducer/DialogReducer";
+} from "../../p1-main/m1-ui/u1-app/redux/reducer/messageReducer";
 import {connect} from "react-redux";
 import MessageList from "./MessagesList";
 

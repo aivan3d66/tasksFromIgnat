@@ -1,6 +1,6 @@
 import React from 'react';
 import logoUser from './iconUser.png'
-import {MessageItemType} from "../../p1-main/m1-ui/u1-app/redux/reducer/DialogReducer";
+import {MessageItemType} from "../../p1-main/m1-ui/u1-app/redux/reducer/messageReducer";
 const style = require('./Message.module.css');
 
 function Message(props: MessageItemType) {
