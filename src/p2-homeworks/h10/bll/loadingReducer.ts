@@ -13,13 +13,17 @@ const initState: InitialState = {
   isLoading: false,
 }
 
-export const loadingReducer = (state = initState, action: any): any => { // fix any
-    switch (action.type) {
-        case '': {
-            return state
-        }
-        default: return state
+export const loadingReducer = (state = initState, action: ActionReducer): InitialState => {
+  switch (action.type) {
+    case ACTION.IS_LOADING: {
+      return {...state, isLoading: true}
     }
+    case ACTION.STOP_LOADING: {
+      return {...state, isLoading: false}
+    }
+    default:
+      return state
+  }
 }
 
 export const loadingAC = (): any => {} // fix any
