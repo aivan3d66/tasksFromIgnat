@@ -1,11 +1,10 @@
 import React from 'react'
 import Affair from './Affair'
-import {AffairType, FilterType} from './HW2'
-import {FILTER_ALL, FILTER_HIGH, FILTER_LOW, FILTER_MIDDLE} from "./HW2";
+import {AffairType, FILTERS, FilterType} from './HW2'
 import s from './Affairs.module.css';
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 
-type AffairsPropsType = { // need to fix any
+type AffairsPropsType = {
   data: Array<AffairType>
   setFilter: (filter: FilterType) => void,
   deleteAffairCallback: (_id: number) => void
@@ -13,24 +12,24 @@ type AffairsPropsType = { // need to fix any
 
 function Affairs(props: AffairsPropsType) {
   const mappedAffairs = props.data.map((a: AffairType) => (
-    <Affair // should work
-      key={a._id} // кеи ОБЯЗАТЕЛЬНЫ в 99% - так что лучше их писать всегда при создании компонент в мапе
+    <Affair
+      key={a._id}
       affair={a}
       deleteAffairCallback={props.deleteAffairCallback}
     />
   ))
 
   const setAll = () => {
-    props.setFilter(FILTER_ALL)
-  } // need to fix
+    props.setFilter(FILTERS.FILTER_ALL)
+  }
   const setHigh = () => {
-    props.setFilter(FILTER_HIGH)
+    props.setFilter(FILTERS.FILTER_HIGH)
   }
   const setMiddle = () => {
-    props.setFilter(FILTER_MIDDLE)
+    props.setFilter(FILTERS.FILTER_MIDDLE)
   }
   const setLow = () => {
-    props.setFilter(FILTER_LOW)
+    props.setFilter(FILTERS.FILTER_LOW)
   }
 
   return (

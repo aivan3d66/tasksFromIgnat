@@ -3,8 +3,8 @@ import Greeting from './Greeting'
 import {AddUserCallback, UserType} from "./HW3";
 
 type GreetingContainerPropsType = {
-  users: Array<UserType> // need to fix any
-  addUserCallback: AddUserCallback // need to fix any
+  users: Array<UserType>
+  addUserCallback: AddUserCallback
 }
 
 export type SetNameCallback = (e: ChangeEvent<HTMLInputElement>) => void;
@@ -18,12 +18,12 @@ export const ERROR_MESSAGE: string = `Please, enter the message`;
 
 // более современный и удобный для про :)
 // уровень локальной логики
-const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUserCallback}) => { // деструктуризация пропсов
-  const [name, setName] = useState<string>('') // need to fix any
-  const [error, setError] = useState<string>('') // need to fix any
+const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUserCallback}) => {
+  const [name, setName] = useState<string>('');
+  const [error, setError] = useState<string>('');
 
 
-  const setNameCallback: SetNameCallback = (e) => { // need to fix any
+  const setNameCallback: SetNameCallback = (e) => {
     const inputValue = e.currentTarget.value.trim();
 
     if (inputValue) {
@@ -49,7 +49,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     }
   }
 
-  const totalUsers = users.length; // need to fix
+  const totalUsers = users.length;
   return (
     <Greeting
       name={name}
