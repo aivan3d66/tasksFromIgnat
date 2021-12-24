@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add table tag">
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h9/HW9.module.css" afterDir="false" />
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add HW9 import">
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/HW10.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/Preloader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/PreloaderContainer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/Spinner.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/redux/redux-store.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/redux/redux-store.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h10/HW10.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/HW10.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/loadingReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/loadingReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h9/Clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h9/Clock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h9/HW9.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h9/HW9.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -137,49 +141,8 @@
       <workItem from="1640153137776" duration="13162000" />
       <workItem from="1640178237663" duration="13100000" />
       <workItem from="1640282244698" duration="8736000" />
-      <workItem from="1640332379179" duration="4006000" />
-    </task>
-    <task id="LOCAL-00030" summary="add hr tags">
-      <created>1640110802104</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1640110802104</updated>
-    </task>
-    <task id="LOCAL-00031" summary="add Routes and Route import">
-      <created>1640110870518</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1640110870518</updated>
-    </task>
-    <task id="LOCAL-00032" summary="add changes to .idea">
-      <created>1640110889395</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1640110889395</updated>
-    </task>
-    <task id="LOCAL-00033" summary="add body font-family and h1 paddings">
-      <created>1640115897889</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1640115897889</updated>
-    </task>
-    <task id="LOCAL-00034" summary="add SuperBtn import and ternary operator">
-      <created>1640116264943</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1640116264943</updated>
-    </task>
-    <task id="LOCAL-00035" summary="add basic styles and animations">
-      <created>1640116302736</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1640116302736</updated>
+      <workItem from="1640332379179" duration="4352000" />
+      <workItem from="1640349322391" duration="7081000" />
     </task>
     <task id="LOCAL-00036" summary="add useState">
       <created>1640116320022</created>
@@ -482,7 +445,49 @@
       <option name="project" value="LOCAL" />
       <updated>1640290947801</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="add timer logic">
+      <created>1640336469589</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1640336469589</updated>
+    </task>
+    <task id="LOCAL-00080" summary="add caption margins">
+      <created>1640336488458</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1640336488458</updated>
+    </task>
+    <task id="LOCAL-00081" summary="add SuperButton classnames">
+      <created>1640336507044</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1640336507044</updated>
+    </task>
+    <task id="LOCAL-00082" summary="add HW9 styles">
+      <created>1640336531618</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1640336531618</updated>
+    </task>
+    <task id="LOCAL-00083" summary="add contentWrapper and h2 title">
+      <created>1640336556626</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1640336556626</updated>
+    </task>
+    <task id="LOCAL-00084" summary="add HW9 import">
+      <created>1640336569404</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1640336569404</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,12 +521,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="add HW6 component" />
-    <MESSAGE value="add styles and realise callbacks functions" />
-    <MESSAGE value="add null margin" />
-    <MESSAGE value="add basic span styles" />
-    <MESSAGE value="add new padding value" />
-    <MESSAGE value="add new position of error" />
     <MESSAGE value="add update of changes" />
     <MESSAGE value="add contentWrapper styles" />
     <MESSAGE value="add contentWrapper, h2 and typing" />
@@ -541,7 +540,13 @@
     <MESSAGE value="add new width of radiobutton" />
     <MESSAGE value="add peopleList styles" />
     <MESSAGE value="add table tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="add table tag" />
+    <MESSAGE value="add timer logic" />
+    <MESSAGE value="add caption margins" />
+    <MESSAGE value="add SuperButton classnames" />
+    <MESSAGE value="add HW9 styles" />
+    <MESSAGE value="add contentWrapper and h2 title" />
+    <MESSAGE value="add HW9 import" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HW9 import" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
