@@ -58,13 +58,13 @@ function HW8() {
 
       <div className={s.controlWrapper}>
         <div>
-          <SuperButton onClick={sortUp}>sort up</SuperButton>
+          <SuperButton onClick={sortUp} className={s.controlBtn}>sort up</SuperButton>
         </div>
         <div>
-          <SuperButton onClick={sortDown}>sort down</SuperButton>
+          <SuperButton onClick={sortDown} className={s.controlBtn}>sort down</SuperButton>
         </div>
         <div>
-          <SuperButton onClick={sortMin}>check 18</SuperButton>
+          <SuperButton onClick={sortMin} className={s.controlBtn}>check 18</SuperButton>
         </div>
       </div>
       {/*для личного творчества, могу проверить*/}
