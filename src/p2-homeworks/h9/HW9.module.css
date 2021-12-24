@@ -1,0 +1,26 @@
+.contentWrapper {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.clockContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  min-height: 120px;
+  padding: 20px 0;
+}
+
+.clockBtnWrapper {
+  width: auto;
+}
+
+.clockDate {
+  cursor: pointer;
+}
+
+.clockBtn {
+  margin: 0 0 0 20px;
+}
