@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add new width of radiobutton">
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add table tag">
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h9/HW9.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h9/Clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h9/Clock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h9/HW9.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h9/HW9.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +72,7 @@
       <recent name="E:\rjs\tasksFromIgnat\my-app\src\p2-homeworks\h1" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.homeWorkReducer.test.tsx">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="homeWorkReducer.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -132,21 +136,8 @@
       <workItem from="1640152504266" duration="598000" />
       <workItem from="1640153137776" duration="13162000" />
       <workItem from="1640178237663" duration="13100000" />
-      <workItem from="1640282244698" duration="8630000" />
-    </task>
-    <task id="LOCAL-00028" summary="add Junior component">
-      <created>1640110780392</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1640110780392</updated>
-    </task>
-    <task id="LOCAL-00029" summary="add JuniorPlus component">
-      <created>1640110787412</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1640110787412</updated>
+      <workItem from="1640282244698" duration="8736000" />
+      <workItem from="1640332379179" duration="4006000" />
     </task>
     <task id="LOCAL-00030" summary="add hr tags">
       <created>1640110802104</created>
@@ -477,7 +468,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640289902709</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="add peopleList styles">
+      <created>1640290929909</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1640290929909</updated>
+    </task>
+    <task id="LOCAL-00078" summary="add table tag">
+      <created>1640290947801</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1640290947801</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,8 +516,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="add h2 tag and div containers" />
-    <MESSAGE value="add pencil img" />
     <MESSAGE value="add HW6 component" />
     <MESSAGE value="add styles and realise callbacks functions" />
     <MESSAGE value="add null margin" />
@@ -536,7 +539,9 @@
     <MESSAGE value="add sortUp, sortDown, sortMin functions with typing" />
     <MESSAGE value="add HW8 import" />
     <MESSAGE value="add new width of radiobutton" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new width of radiobutton" />
+    <MESSAGE value="add peopleList styles" />
+    <MESSAGE value="add table tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="add table tag" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
