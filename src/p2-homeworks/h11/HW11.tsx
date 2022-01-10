@@ -5,14 +5,19 @@ import s from './HW11.module.css';
 
 const MIN_VALUE: number = 0;
 const MAX_VALUE: number = 100;
+const STEP_VALUE: number = 1;
+const ALLOW_CROSS: boolean = false
 
 function HW11() {
-  const [value1, setValue1] = useState<any>(MIN_VALUE)
-  const [value2, setValue2] = useState<any>(MAX_VALUE)
+  const [value1, setValue1] = useState<any>(MIN_VALUE);
+  const [result, setResult] = useState<any>([MIN_VALUE, MAX_VALUE])
 
   const onChangeRangeFirstHandler = (value: number) => setValue1(value);
-  // const onChangeRangeSecondHandler = (value: number) => setValue2(value);
 
+  const onSetResultHandler = (value: any) => {
+    setResult(value)
+  }
+  console.log(result)
   return (
     <div className={s.contentWrapper}>
       <h2>Homeworks 11</h2>
@@ -27,9 +32,16 @@ function HW11() {
       </div>
 
       <div className={s.rangeWrapper}>
-        <span>{value1}</span>
-        <SuperDoubleRange/>
-        <span>{value2}</span>
+        <span>{result[0]}</span>
+        <SuperDoubleRange
+          min={MIN_VALUE}
+          max={MAX_VALUE}
+          step={STEP_VALUE}
+          allowCross={ALLOW_CROSS}
+          defaultValue={result}
+          onChangeRange={onSetResultHandler}
+        />
+        <span>{result[1]}</span>
       </div>
     </div>
   )
