@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add change to bg-colour">
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add rc-slider dependencies">
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c7-SuperRange/SuperRange.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c7-SuperRange/SuperRange.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c7-SuperRange/SuperRange.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c7-SuperRange/SuperRange.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange/SuperDoubleRange.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange/SuperDoubleRange.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h6/HW6.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h6/HW6.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,28 +148,7 @@
       <workItem from="1641397680562" duration="6479000" />
       <workItem from="1641454998469" duration="10000" />
       <workItem from="1641480462314" duration="744000" />
-      <workItem from="1641830792872" duration="9537000" />
-    </task>
-    <task id="LOCAL-00061" summary="add contentWrapper styles">
-      <created>1640186084881</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1640186084881</updated>
-    </task>
-    <task id="LOCAL-00062" summary="add contentWrapper, h2 and typing">
-      <created>1640187000462</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1640187000462</updated>
-    </task>
-    <task id="LOCAL-00063" summary="add HW7 import">
-      <created>1640187020929</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1640187020929</updated>
+      <workItem from="1641830792872" duration="9633000" />
     </task>
     <task id="LOCAL-00064" summary="delete comments">
       <created>1640187053318</created>
@@ -499,7 +472,28 @@
       <option name="project" value="LOCAL" />
       <updated>1640378496701</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="add HW11 styles">
+      <created>1641840426190</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1641840426190</updated>
+    </task>
+    <task id="LOCAL-00111" summary="add HW11 import">
+      <created>1641840434241</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1641840434241</updated>
+    </task>
+    <task id="LOCAL-00112" summary="add rc-slider dependencies">
+      <created>1641840468113</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1641840468113</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,9 +527,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="delete unused imports" />
-    <MESSAGE value="add container styles" />
-    <MESSAGE value="add props with typing" />
     <MESSAGE value="add className, h2, isLoading props and Preloader import" />
     <MESSAGE value="add PreloaderContainer import as HW10" />
     <MESSAGE value="add loadingReducer typing" />
@@ -558,7 +549,10 @@
     <MESSAGE value="add changes to default message" />
     <MESSAGE value="add rename of reducer" />
     <MESSAGE value="add change to bg-colour" />
-    <option name="LAST_COMMIT_MESSAGE" value="add change to bg-colour" />
+    <MESSAGE value="add HW11 styles" />
+    <MESSAGE value="add HW11 import" />
+    <MESSAGE value="add rc-slider dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="add rc-slider dependencies" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
