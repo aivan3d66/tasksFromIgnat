@@ -1,39 +1,38 @@
 import React, {useState} from 'react'
 import SuperRange from './common/c7-SuperRange/SuperRange'
 import SuperDoubleRange from './common/c8-SuperDoubleRange/SuperDoubleRange'
+import s from './HW11.module.css';
+
+const MIN_VALUE: number = 0;
+const MAX_VALUE: number = 100;
 
 function HW11() {
-    const [value1, setValue1] = useState(0)
-    const [value2, setValue2] = useState(100)
+  const [value1, setValue1] = useState<any>(MIN_VALUE)
+  const [value2, setValue2] = useState<any>(MAX_VALUE)
 
-    return (
-        <div>
-            <hr/>
-            homeworks 11
+  const onChangeRangeFirstHandler = (value: number) => setValue1(value);
+  // const onChangeRangeSecondHandler = (value: number) => setValue2(value);
 
-            {/*should work (должно работать)*/}
-            <div>
-                <span>{value1}</span>
-                <SuperRange
-                    // сделать так чтоб value1 изменялось
-                />
-            </div>
+  return (
+    <div className={s.contentWrapper}>
+      <h2>Homeworks 11</h2>
 
-            <div>
-                <span>{value1}</span>
-                <SuperDoubleRange
-                    // сделать так чтоб value1 и value2 изменялось
-                />
-                <span>{value2}</span>
-            </div>
+      {/*should work (должно работать)*/}
+      <div className={s.rangeWrapper}>
+        <span>{value1}</span>
+        <SuperRange
+          defaultValue={value1}
+          onChangeRange={onChangeRangeFirstHandler}
+        />
+      </div>
 
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperRange/>*/}
-            {/*<AlternativeSuperDoubleRange/>*/}
-            <hr/>
-        </div>
-    )
+      <div className={s.rangeWrapper}>
+        <span>{value1}</span>
+        <SuperDoubleRange/>
+        <span>{value2}</span>
+      </div>
+    </div>
+  )
 }
 
 export default HW11
