@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add SuperRange with styles">
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add default SuperDoubleRange">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c7-SuperRange/SuperRange.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c7-SuperRange/SuperRange.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange/SuperDoubleRange.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange/SuperDoubleRange.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="CSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -146,21 +150,7 @@
       <workItem from="1641397680562" duration="6479000" />
       <workItem from="1641454998469" duration="10000" />
       <workItem from="1641480462314" duration="744000" />
-      <workItem from="1641830792872" duration="9670000" />
-    </task>
-    <task id="LOCAL-00065" summary="add onChangeCallback logic, types and radio attributes">
-      <created>1640187094231</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1640187094231</updated>
-    </task>
-    <task id="LOCAL-00066" summary="add onChangeCallback logic, types and select attributes">
-      <created>1640187110155</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1640187110155</updated>
+      <workItem from="1641830792872" duration="14870000" />
     </task>
     <task id="LOCAL-00067" summary="add classNames and radio styles">
       <created>1640189504214</created>
@@ -491,7 +481,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641840500563</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="add first SuperRange">
+      <created>1641840561666</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1641840561666</updated>
+    </task>
+    <task id="LOCAL-00115" summary="add default SuperDoubleRange">
+      <created>1641840574170</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1641840574170</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,8 +529,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="add PreloaderContainer import as HW10" />
-    <MESSAGE value="add loadingReducer typing" />
     <MESSAGE value="add action obj" />
     <MESSAGE value="add loadingReducer logic" />
     <MESSAGE value="add loadingReducer action creators" />
@@ -550,7 +552,9 @@
     <MESSAGE value="add HW11 import" />
     <MESSAGE value="add rc-slider dependencies" />
     <MESSAGE value="add SuperRange with styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add SuperRange with styles" />
+    <MESSAGE value="add first SuperRange" />
+    <MESSAGE value="add default SuperDoubleRange" />
+    <option name="LAST_COMMIT_MESSAGE" value="add default SuperDoubleRange" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
