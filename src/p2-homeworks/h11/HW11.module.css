@@ -1,7 +1,6 @@
 .contentWrapper {
   position: relative;
   width: 500px;
-  height: 120px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -9,11 +8,17 @@
 .rangeWrapper {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 0 0 20px 0;
+  margin: 0 0 40px 0;
 }
 
 .rangeWrapper span {
   min-width: 40px;
   padding: 6px;
+  margin: 0 10px;
+  text-align: center;
+  color: white;
+
+  border: 1px solid rgba(52, 152, 192, 1);
+  background-color: rgba(52, 152, 192, 1);
+  border-radius: 6px;
 }
