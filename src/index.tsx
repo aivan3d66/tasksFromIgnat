@@ -8,14 +8,12 @@ import store from './p1-main/m1-ui/u1-app/redux/redux-store';
 import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(
-    <React.StrictMode>
-      <HashRouter>
-        <Provider store={store}>
-          <App/>
-        </Provider>
-      </HashRouter>
-    </React.StrictMode>,
-    document.getElementById("root")
+  <HashRouter>
+    <Provider store={store}>
+      <App/>
+    </Provider>
+  </HashRouter>,
+  document.getElementById("root")
 )
 
 serviceWorker.unregister()
