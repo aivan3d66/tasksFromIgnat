@@ -17,8 +17,14 @@ function HW11() {
     setValues([value1, value2])
   }, [value1, value2])
 
-  const onSetResultHandler = (value: any) => {
-    setResult(value)
+  const onChangeRangeFirstHandler = (value: number) => {
+    setValue1(value);
+  }
+
+  const onChangeRangeSecondHandler = (value: number[]) => {
+    setValues(value);
+    setValue1(value[0]);
+    setValue2(value[1])
   }
   console.log(result)
   return (
