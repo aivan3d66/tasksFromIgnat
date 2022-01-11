@@ -9,8 +9,9 @@ const STEP_VALUE: number = 1;
 const ALLOW_CROSS: boolean = false
 
 function HW11() {
-  const [value1, setValue1] = useState<any>(MIN_VALUE);
-  const [result, setResult] = useState<any>([MIN_VALUE, MAX_VALUE])
+  const [value1, setValue1] = useState<number>(MIN_VALUE);
+  const [value2, setValue2] = useState<number>(MAX_VALUE);
+  const [values, setValues] = useState<any>([value1, value2])
 
   const onChangeRangeFirstHandler = (value: number) => setValue1(value);
 
