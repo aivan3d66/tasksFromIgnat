@@ -13,7 +13,9 @@ function HW11() {
   const [value2, setValue2] = useState<number>(MAX_VALUE);
   const [values, setValues] = useState<any>([value1, value2])
 
-  const onChangeRangeFirstHandler = (value: number) => setValue1(value);
+  useEffect(() => {
+    setValues([value1, value2])
+  }, [value1, value2])
 
   const onSetResultHandler = (value: any) => {
     setResult(value)
