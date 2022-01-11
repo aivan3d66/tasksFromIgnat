@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add default SuperDoubleRange">
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add range styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c7-SuperRange/SuperRange.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c7-SuperRange/SuperRange.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange/SuperDoubleRange.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange/SuperDoubleRange.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,42 +148,8 @@
       <workItem from="1641397680562" duration="6479000" />
       <workItem from="1641454998469" duration="10000" />
       <workItem from="1641480462314" duration="744000" />
-      <workItem from="1641830792872" duration="14870000" />
-    </task>
-    <task id="LOCAL-00067" summary="add classNames and radio styles">
-      <created>1640189504214</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1640189504214</updated>
-    </task>
-    <task id="LOCAL-00068" summary="add classNames and select styles">
-      <created>1640189513960</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1640189513960</updated>
-    </task>
-    <task id="LOCAL-00069" summary="add changes update">
-      <created>1640189528225</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1640189528225</updated>
-    </task>
-    <task id="LOCAL-00070" summary="add unit test for sortUp">
-      <created>1640289617263</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1640289617263</updated>
-    </task>
-    <task id="LOCAL-00071" summary="add unit test for sortDown">
-      <created>1640289641837</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1640289641837</updated>
+      <workItem from="1641830792872" duration="14987000" />
+      <workItem from="1641889908487" duration="886000" />
     </task>
     <task id="LOCAL-00072" summary="add homeWorkReducer with actions, clean functions and typing">
       <created>1640289685135</created>
@@ -495,7 +459,42 @@
       <option name="project" value="LOCAL" />
       <updated>1641840574170</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="add rangeWrapper span styles">
+      <created>1641845763445</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1641845763445</updated>
+    </task>
+    <task id="LOCAL-00117" summary="add onSetResultHandler">
+      <created>1641845772501</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1641845772501</updated>
+    </task>
+    <task id="LOCAL-00118" summary="delete StrictMode">
+      <created>1641845781302</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1641845781302</updated>
+    </task>
+    <task id="LOCAL-00119" summary="add Range with props and typing">
+      <created>1641845804772</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1641845804772</updated>
+    </task>
+    <task id="LOCAL-00120" summary="add range styles">
+      <created>1641845821873</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1641845821873</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,11 +528,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="add action obj" />
-    <MESSAGE value="add loadingReducer logic" />
-    <MESSAGE value="add loadingReducer action creators" />
-    <MESSAGE value="add Preloader component" />
-    <MESSAGE value="add PreloaderContainer with mapStateToProps, mapDispatchToProps and connect function" />
     <MESSAGE value="add loadingReducer import" />
     <MESSAGE value="add spinner svg" />
     <MESSAGE value="add updates" />
@@ -554,7 +548,12 @@
     <MESSAGE value="add SuperRange with styles" />
     <MESSAGE value="add first SuperRange" />
     <MESSAGE value="add default SuperDoubleRange" />
-    <option name="LAST_COMMIT_MESSAGE" value="add default SuperDoubleRange" />
+    <MESSAGE value="add rangeWrapper span styles" />
+    <MESSAGE value="add onSetResultHandler" />
+    <MESSAGE value="delete StrictMode" />
+    <MESSAGE value="add Range with props and typing" />
+    <MESSAGE value="add range styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="add range styles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
