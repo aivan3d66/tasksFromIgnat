@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add range styles">
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add onChangeRange, disable, step type">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.tsx" afterDir="false" />
@@ -149,21 +149,7 @@
       <workItem from="1641454998469" duration="10000" />
       <workItem from="1641480462314" duration="744000" />
       <workItem from="1641830792872" duration="14987000" />
-      <workItem from="1641889908487" duration="886000" />
-    </task>
-    <task id="LOCAL-00072" summary="add homeWorkReducer with actions, clean functions and typing">
-      <created>1640289685135</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1640289685135</updated>
-    </task>
-    <task id="LOCAL-00073" summary="add Wrapper styles">
-      <created>1640289700986</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1640289700986</updated>
+      <workItem from="1641889908487" duration="7172000" />
     </task>
     <task id="LOCAL-00074" summary="add sortUp, sortDown, sortMin functions with typing">
       <created>1640289866660</created>
@@ -494,7 +480,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641845821873</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="add change of rangeWrapper input margin and width">
+      <created>1641891059468</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1641891059469</updated>
+    </task>
+    <task id="LOCAL-00122" summary="add onChangeRange, disable, step type">
+      <created>1641891083699</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1641891083699</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,8 +528,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="add loadingReducer import" />
-    <MESSAGE value="add spinner svg" />
     <MESSAGE value="add updates" />
     <MESSAGE value="delete unnecessary comments" />
     <MESSAGE value="add h1 color" />
@@ -553,7 +551,9 @@
     <MESSAGE value="delete StrictMode" />
     <MESSAGE value="add Range with props and typing" />
     <MESSAGE value="add range styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add range styles" />
+    <MESSAGE value="add change of rangeWrapper input margin and width" />
+    <MESSAGE value="add onChangeRange, disable, step type" />
+    <option name="LAST_COMMIT_MESSAGE" value="add onChangeRange, disable, step type" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -7,10 +7,11 @@ type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElem
 type SuperDoubleRangePropsType = DefaultInputPropsType & {
   onChangeRange: (value: number[]) => void,
   defaultValue?: [number, number],
-  disable: boolean,
-  min: number,
-  max: number,
-  step: number,
+  disable?: boolean,
+  min?: number,
+  max?: number,
+  step?: number,
+  value?: number[]
 }
 
 const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
@@ -21,6 +22,7 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
     min,
     max,
     step,
+    value,
   }
 ) => {
 
@@ -33,6 +35,7 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
         step={step}
         allowCross={disable}
         defaultValue={defaultValue}
+        value={value}
         onChange={onChangeRange}
       />
     </>
