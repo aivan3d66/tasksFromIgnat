@@ -5,27 +5,24 @@ import s from './../c7-SuperRange/SuperRange.module.css';
 
 type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
 type SuperDoubleRangePropsType = DefaultInputPropsType & {
-  onChangeRange: any,
+  onChangeRange: (value: number[]) => void,
   defaultValue?: [number, number],
-  allowCross: boolean,
+  disable: boolean,
   min: number,
   max: number,
-  step: number
-  // min, max, step, disable, ...
+  step: number,
 }
 
 const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
   {
     onChangeRange,
     defaultValue,
-    allowCross,
+    disable,
     min,
     max,
     step,
-    // min, max, step, disable, ...
   }
 ) => {
-  // сделать самому, можно подключать библиотеки
 
   return (
     <>
@@ -34,7 +31,7 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
         min={min}
         max={max}
         step={step}
-        allowCross={allowCross}
+        allowCross={disable}
         defaultValue={defaultValue}
         onChange={onChangeRange}
       />
