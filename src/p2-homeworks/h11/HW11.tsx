@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import SuperRange from './common/c7-SuperRange/SuperRange'
 import SuperDoubleRange from './common/c8-SuperDoubleRange/SuperDoubleRange'
 import s from './HW11.module.css';
@@ -26,31 +26,28 @@ function HW11() {
     setValue1(value[0]);
     setValue2(value[1])
   }
-  console.log(result)
+
   return (
     <div className={s.contentWrapper}>
       <h2>Homeworks 11</h2>
 
-      {/*should work (должно работать)*/}
       <div className={s.rangeWrapper}>
         <span>{value1}</span>
         <SuperRange
-          defaultValue={value1}
+          value={value1}
           onChangeRange={onChangeRangeFirstHandler}
         />
       </div>
 
       <div className={s.rangeWrapper}>
-        <span>{result[0]}</span>
+        <span>{values[0]}</span>
         <SuperDoubleRange
-          min={MIN_VALUE}
-          max={MAX_VALUE}
           step={STEP_VALUE}
-          allowCross={ALLOW_CROSS}
-          defaultValue={result}
-          onChangeRange={onSetResultHandler}
+          disable={ALLOW_CROSS}
+          value={values}
+          onChangeRange={onChangeRangeSecondHandler}
         />
-        <span>{result[1]}</span>
+        <span>{values[1]}</span>
       </div>
     </div>
   )
