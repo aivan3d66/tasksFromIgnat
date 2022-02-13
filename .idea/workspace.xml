@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add SuperDoubleRange props types">
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add material ui dependencies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/JuniorPlus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/JuniorPlus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,14 +149,13 @@
       <workItem from="1641454998469" duration="10000" />
       <workItem from="1641480462314" duration="744000" />
       <workItem from="1641830792872" duration="14987000" />
-      <workItem from="1641889908487" duration="7720000" />
-    </task>
-    <task id="LOCAL-00080" summary="add caption margins">
-      <created>1640336488458</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1640336488458</updated>
+      <workItem from="1641889908487" duration="7846000" />
+      <workItem from="1641902288344" duration="885000" />
+      <workItem from="1642319714153" duration="1244000" />
+      <workItem from="1643220740842" duration="625000" />
+      <workItem from="1643449775320" duration="54000" />
+      <workItem from="1643451089462" duration="787000" />
+      <workItem from="1644769938932" duration="317000" />
     </task>
     <task id="LOCAL-00081" summary="add SuperButton classnames">
       <created>1640336507044</created>
@@ -492,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641901098480</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="add HW12 import">
+      <created>1641901603522</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1641901603522</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,8 +534,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="replace file" />
-    <MESSAGE value="add border-radius" />
     <MESSAGE value="add rename of path's" />
     <MESSAGE value="add changes to default message" />
     <MESSAGE value="add rename of reducer" />
@@ -551,7 +557,9 @@
     <MESSAGE value="add onChangeRangeFirstHandler and onChangeRangeSecondHandler callbacks" />
     <MESSAGE value="add SuperDoubleRange logic" />
     <MESSAGE value="add SuperDoubleRange props types" />
-    <option name="LAST_COMMIT_MESSAGE" value="add SuperDoubleRange props types" />
+    <MESSAGE value="add HW12 import" />
+    <MESSAGE value="add material ui dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="add material ui dependencies" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
