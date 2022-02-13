@@ -2,6 +2,7 @@ import React, {ChangeEvent} from 'react';
 import Message from "./Message";
 import {MessageItemType} from "../../p1-main/m1-ui/u1-app/redux/reducer/messageReducer";
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
+import SuperInputText from "../h4/common/c1-SuperInputText/SuperInputText";
 
 const style = require('./Message.module.css');
 
@@ -20,7 +21,9 @@ function MessageList(props: MessageListProps) {
   const newMessageBody = props.messagePage.newMessageText;
 
   const onSendMessageClick = () => {
-    props.sendMessageCreator();
+    if (newMessageBody !== '') {
+      props.sendMessageCreator();
+    }
   }
 
   const onNewMessageChange = (e: ChangeEvent<HTMLInputElement>) => {
@@ -41,9 +44,7 @@ function MessageList(props: MessageListProps) {
       </div>
       <div className={style.messageInput}>
         <div className={style.inputField}>
-          <input placeholder="Write the message"
-                    value={newMessageBody}
-                    onChange={onNewMessageChange}/>
+          <SuperInputText placeholder="Write the message" onChange={onNewMessageChange}/>
         </div>
         <div className={style.inputBtn}>
           <SuperButton onClick={onSendMessageClick}>
