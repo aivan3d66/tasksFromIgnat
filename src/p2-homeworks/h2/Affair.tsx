@@ -1,10 +1,11 @@
 import React from 'react'
 import {AffairType} from "./HW2";
 import s from './Affairs.module.css';
-import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
+import {IconButton} from '@mui/material';
+import DeleteRoundedIcon from '@mui/icons-material/DeleteRounded';
 
 type AffairPropsType = {
-  affair:  AffairType,
+  affair: AffairType,
   deleteAffairCallback: (_id: number) => void,
 }
 
@@ -22,9 +23,9 @@ function Affair(props: AffairPropsType) {
       <div className={s.affairsList__priority}>
         {props.affair.priority}
       </div>
-      <SuperButton onClick={deleteCallback} className={s.affairsList__btn}>
-        X
-      </SuperButton>
+      <IconButton onClick={deleteCallback}>
+        <DeleteRoundedIcon/>
+      </IconButton>
     </div>
   )
 }
