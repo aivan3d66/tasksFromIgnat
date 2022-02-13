@@ -13,6 +13,8 @@ a {
 .menuBtn {
   width: 40px;
   margin: 20px;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .headerContainer {
@@ -43,8 +45,6 @@ a {
   text-align: center;
   border: 1px solid rgba(52, 152, 192, 1);
   background-color: rgba(52, 152, 192, 1);
-  box-shadow: 0 2px 1px 1px #b2b2b2;
-
   transition: 0.5s;
 }
 
@@ -56,11 +56,8 @@ a {
 
 .nav__itemActive {
   color: white;
-
   border: 1px solid rgba(0, 128, 0, 1);
   background-color: rgba(0, 128, 0, 1);
-  box-shadow: 0 2px 1px 1px #b2b2b2;
-
   transition: 0.5s;
 }
 
