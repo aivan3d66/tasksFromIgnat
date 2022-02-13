@@ -6,13 +6,13 @@
 }
 
 a {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .menuBtn {
+  width: 40px;
   margin: 20px;
-  font-size: 24px;
 }
 
 .headerContainer {
@@ -41,24 +41,25 @@ a {
 
   font-size: 14px;
   text-align: center;
-  border: 1px solid darkslategrey;
+  border: 1px solid rgba(52, 152, 192, 1);
+  background-color: rgba(52, 152, 192, 1);
+  box-shadow: 0 2px 1px 1px #b2b2b2;
 
   transition: 0.5s;
 }
 
-.nav__item:hover,
-.nav__item:focus {
-  color: white;
-  border: 1px solid white;
-  background-color: darkslategrey;
+.nav__item:hover {
+  border: 1px solid rgba(0, 128, 0, 0.8);
+  background-color: rgba(0, 128, 0, 0.8);
 }
 
 
 .nav__itemActive {
   color: white;
 
-  border: 1px solid darkslategrey;
-  background-color: darkslategrey;
+  border: 1px solid rgba(0, 128, 0, 1);
+  background-color: rgba(0, 128, 0, 1);
+  box-shadow: 0 2px 1px 1px #b2b2b2;
 
   transition: 0.5s;
 }
