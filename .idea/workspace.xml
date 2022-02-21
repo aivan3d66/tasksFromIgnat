@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add HW12">
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add upd HW4-5 styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h2/Affair.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h2/Affair.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h4/HW4.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h4/HW4.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h7/HW7.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/HW7.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,28 +154,11 @@
       <workItem from="1643220740842" duration="625000" />
       <workItem from="1643449775320" duration="54000" />
       <workItem from="1643451089462" duration="787000" />
-      <workItem from="1644769938932" duration="7789000" />
-    </task>
-    <task id="LOCAL-00097" summary="add spinner svg">
-      <created>1640376136467</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1640376136467</updated>
-    </task>
-    <task id="LOCAL-00098" summary="add updates">
-      <created>1640376180992</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1640376180992</updated>
-    </task>
-    <task id="LOCAL-00099" summary="delete unnecessary comments">
-      <created>1640378193687</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1640378193687</updated>
+      <workItem from="1644769938932" duration="8110000" />
+      <workItem from="1645196623682" duration="697000" />
+      <workItem from="1645213851662" duration="5000" />
+      <workItem from="1645214161758" duration="197000" />
+      <workItem from="1645467288037" duration="570000" />
     </task>
     <task id="LOCAL-00100" summary="add h1 color">
       <created>1640378207121</created>
@@ -501,7 +482,28 @@
       <option name="project" value="LOCAL" />
       <updated>1644777408640</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="add DeleteRoundedIcon">
+      <created>1644777819256</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1644777819256</updated>
+    </task>
+    <task id="LOCAL-00147" summary="add upd inputButton width">
+      <created>1644777831916</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1644777831916</updated>
+    </task>
+    <task id="LOCAL-00148" summary="add upd HW4-5 styles">
+      <created>1644777847524</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1644777847524</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,9 +537,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="add change of rangeWrapper input margin and width" />
-    <MESSAGE value="add onChangeRange, disable, step type" />
-    <MESSAGE value="add new rangeWrapper input  margin" />
     <MESSAGE value="add value1 and value2 types" />
     <MESSAGE value="add useEffect hook" />
     <MESSAGE value="add onChangeRangeFirstHandler and onChangeRangeSecondHandler callbacks" />
@@ -560,7 +559,10 @@
     <MESSAGE value="add SuperInputText import" />
     <MESSAGE value="delete inputField input styles" />
     <MESSAGE value="add HW12" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HW12" />
+    <MESSAGE value="add DeleteRoundedIcon" />
+    <MESSAGE value="add upd inputButton width" />
+    <MESSAGE value="add upd HW4-5 styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="add upd HW4-5 styles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
