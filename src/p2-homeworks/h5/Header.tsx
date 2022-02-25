@@ -16,11 +16,16 @@ const Header: React.FC<HeaderProps> = ({menu, onBtnHandler}) => {
 
   return (
     <div className={s.headerContainer}>
-      <SuperButton
+      <IconButton
+        size="large"
+        edge="start"
+        aria-label="menu"
+        sx={{mr: 2}}
         onClick={onBtnHandler}
-        className={s.menuBtn}>
+        style={{margin: "20px 0"}}
+      >
         <MenuRoundedIcon/>
-      </SuperButton>
+      </IconButton>
       {
         menu
           ? <nav className={hideMenuClass}></nav>
@@ -34,7 +39,6 @@ const Header: React.FC<HeaderProps> = ({menu, onBtnHandler}) => {
           </nav>
       }
     </div>
-
   )
 }
 
