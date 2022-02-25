@@ -8,6 +8,11 @@ import {
 } from "../../p1-main/m1-ui/u1-app/redux/reducer/themeReducer";
 import SuperSelect from "../h7/common/c5-SuperSelect/SuperSelect";
 
+const THEMES = {
+  LIGHT: 'light',
+  DARK: 'dark'
+}
+const themeArr = [THEMES.LIGHT, THEMES.DARK];
 
 function HW12() {
   const dispatch = useDispatch();
