@@ -27,7 +27,7 @@ function HW12() {
   }, [dispatch, value])
 
   return (
-    <div>
+    <div style={{padding: "0 20px"}}>
       <h2>Homeworks 12</h2>
       <div>
         <div>
@@ -38,7 +38,6 @@ function HW12() {
             />
         </div>
       </div>
-      <hr/>
     </div>
   );
 }
