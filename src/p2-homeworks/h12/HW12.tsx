@@ -16,6 +16,7 @@ const themeArr = [THEMES.LIGHT, THEMES.DARK];
 
 function HW12() {
   const dispatch = useDispatch();
+  const [value, onChangeOption] = useState(themeArr[0]);
 
   const onChangeDarkThemeHandler = () => {
     dispatch(setDarkTheme(darkScheme))
