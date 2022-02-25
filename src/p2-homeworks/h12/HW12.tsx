@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {useDispatch} from "react-redux";
 import {
   darkScheme,
@@ -6,10 +6,7 @@ import {
   setWhiteTheme,
   whiteScheme
 } from "../../p1-main/m1-ui/u1-app/redux/reducer/themeReducer";
-import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
-import ModeNightRoundedIcon from '@mui/icons-material/ModeNightRounded';
-import WbSunnyRoundedIcon from '@mui/icons-material/WbSunnyRounded';
-import {IconButton} from "@mui/material";
+import SuperSelect from "../h7/common/c5-SuperSelect/SuperSelect";
 
 
 function HW12() {
