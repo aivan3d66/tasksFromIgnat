@@ -29,21 +29,13 @@ function HW12() {
   return (
     <div>
       <h2>Homeworks 12</h2>
-      <div style={{
-        display: "flex",
-        justifyContent: "center",
-      }}>
-        <div style={{
-          backgroundColor: "rgba(169, 169, 169, 1)",
-          border: "1px solid white",
-          borderRadius: "50px",
-        }}>
-          <IconButton onClick={onChangeLightThemeHandler}>
-            <WbSunnyRoundedIcon style={{color: "yellow"}}/>
-          </IconButton>
-          <IconButton onClick={onChangeDarkThemeHandler}>
-            <ModeNightRoundedIcon style={{color: "gold"}}/>
-          </IconButton>
+      <div>
+        <div>
+            <SuperSelect
+              options={themeArr}
+              value={value}
+              onChangeOption={onChangeOption}
+            />
         </div>
       </div>
       <hr/>
