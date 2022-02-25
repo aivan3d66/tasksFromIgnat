@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add upd SuperRadio input (add sync with SuperSelect)">
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add SuperSelect to markup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h12/HW12.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h12/HW12.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/JuniorPlus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/JuniorPlus.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/p2-homeworks/h12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../socialNetwork-project" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -107,8 +110,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.homeWorkReducer.test.tsx" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="Jest.homeWorkReducer.test.tsx" />
       </list>
     </recent_temporary>
   </component>
@@ -161,42 +164,7 @@
       <workItem from="1645213851662" duration="5000" />
       <workItem from="1645214161758" duration="197000" />
       <workItem from="1645467288037" duration="1328000" />
-      <workItem from="1645812041473" duration="3791000" />
-    </task>
-    <task id="LOCAL-00101" summary="add refactoring of filter obj">
-      <created>1640378240483</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1640378240483</updated>
-    </task>
-    <task id="LOCAL-00102" summary="delete comment">
-      <created>1640378292808</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1640378292808</updated>
-    </task>
-    <task id="LOCAL-00103" summary="add loaderSpinner styles">
-      <created>1640378302881</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1640378302881</updated>
-    </task>
-    <task id="LOCAL-00104" summary="replace file">
-      <created>1640378359818</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1640378359818</updated>
-    </task>
-    <task id="LOCAL-00105" summary="add border-radius">
-      <created>1640378371220</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1640378371220</updated>
+      <workItem from="1645812041473" duration="4364000" />
     </task>
     <task id="LOCAL-00106" summary="add rename of path's">
       <created>1640378434170</created>
@@ -506,7 +474,42 @@
       <option name="project" value="LOCAL" />
       <updated>1645468034351</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="add SuperSelect import">
+      <created>1645815863686</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1645815863686</updated>
+    </task>
+    <task id="LOCAL-00151" summary="add THEMES const and themeArr">
+      <created>1645815881929</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1645815881929</updated>
+    </task>
+    <task id="LOCAL-00152" summary="add current theme value">
+      <created>1645815902575</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1645815902575</updated>
+    </task>
+    <task id="LOCAL-00153" summary="add useEffect with dispatchers">
+      <created>1645815915635</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1645815915635</updated>
+    </task>
+    <task id="LOCAL-00154" summary="add SuperSelect to markup">
+      <created>1645815929299</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1645815929299</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,11 +543,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="add useEffect hook" />
-    <MESSAGE value="add onChangeRangeFirstHandler and onChangeRangeSecondHandler callbacks" />
-    <MESSAGE value="add SuperDoubleRange logic" />
-    <MESSAGE value="add SuperDoubleRange props types" />
-    <MESSAGE value="add HW12 import" />
     <MESSAGE value="add material ui dependencies" />
     <MESSAGE value="add reset App styles" />
     <MESSAGE value="add default themeReducer file" />
@@ -565,7 +563,12 @@
     <MESSAGE value="add upd inputButton width" />
     <MESSAGE value="add upd HW4-5 styles" />
     <MESSAGE value="add upd SuperRadio input (add sync with SuperSelect)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add upd SuperRadio input (add sync with SuperSelect)" />
+    <MESSAGE value="add SuperSelect import" />
+    <MESSAGE value="add THEMES const and themeArr" />
+    <MESSAGE value="add current theme value" />
+    <MESSAGE value="add useEffect with dispatchers" />
+    <MESSAGE value="add SuperSelect to markup" />
+    <option name="LAST_COMMIT_MESSAGE" value="add SuperSelect to markup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
