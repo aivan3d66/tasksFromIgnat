@@ -18,12 +18,13 @@ function HW12() {
   const dispatch = useDispatch();
   const [value, onChangeOption] = useState(themeArr[0]);
 
-  const onChangeDarkThemeHandler = () => {
-    dispatch(setDarkTheme(darkScheme))
-  }
-  const onChangeLightThemeHandler = () => {
-    dispatch(setWhiteTheme(whiteScheme))
-  }
+  useEffect(() => {
+    if (value === THEMES.LIGHT) {
+      dispatch(setWhiteTheme(whiteScheme))
+    } else if (value === THEMES.DARK) {
+      dispatch(setDarkTheme(darkScheme))
+    }
+  }, [dispatch, value])
 
   return (
     <div>
