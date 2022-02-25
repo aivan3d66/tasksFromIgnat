@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add SuperSelect to markup">
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add JuniorPlus styles and hr tags">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h12/HW12.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h12/HW12.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/JuniorPlus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/JuniorPlus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,35 +163,7 @@
       <workItem from="1645213851662" duration="5000" />
       <workItem from="1645214161758" duration="197000" />
       <workItem from="1645467288037" duration="1328000" />
-      <workItem from="1645812041473" duration="4364000" />
-    </task>
-    <task id="LOCAL-00106" summary="add rename of path's">
-      <created>1640378434170</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1640378434170</updated>
-    </task>
-    <task id="LOCAL-00107" summary="add changes to default message">
-      <created>1640378460587</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1640378460587</updated>
-    </task>
-    <task id="LOCAL-00108" summary="add rename of reducer">
-      <created>1640378473803</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1640378473803</updated>
-    </task>
-    <task id="LOCAL-00109" summary="add change to bg-colour">
-      <created>1640378496701</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1640378496701</updated>
+      <workItem from="1645812041473" duration="5804000" />
     </task>
     <task id="LOCAL-00110" summary="add HW11 styles">
       <created>1641840426190</created>
@@ -509,7 +480,35 @@
       <option name="project" value="LOCAL" />
       <updated>1645815929299</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="add margin-right value">
+      <created>1645816461160</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1645816461160</updated>
+    </task>
+    <task id="LOCAL-00156" summary="add App min height value">
+      <created>1645816493419</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1645816493419</updated>
+    </task>
+    <task id="LOCAL-00157" summary="add HW12 padding value">
+      <created>1645816509350</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1645816509350</updated>
+    </task>
+    <task id="LOCAL-00158" summary="add JuniorPlus styles and hr tags">
+      <created>1645816528073</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1645816528073</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,10 +542,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="add material ui dependencies" />
-    <MESSAGE value="add reset App styles" />
-    <MESSAGE value="add default themeReducer file" />
-    <MESSAGE value="delete App css file" />
     <MESSAGE value="add material icons dependencies" />
     <MESSAGE value="add themeReducer to rootReducer" />
     <MESSAGE value="add upd SupeButton styles" />
@@ -568,7 +563,11 @@
     <MESSAGE value="add current theme value" />
     <MESSAGE value="add useEffect with dispatchers" />
     <MESSAGE value="add SuperSelect to markup" />
-    <option name="LAST_COMMIT_MESSAGE" value="add SuperSelect to markup" />
+    <MESSAGE value="add margin-right value" />
+    <MESSAGE value="add App min height value" />
+    <MESSAGE value="add HW12 padding value" />
+    <MESSAGE value="add JuniorPlus styles and hr tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="add JuniorPlus styles and hr tags" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

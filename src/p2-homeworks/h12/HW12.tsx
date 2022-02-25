@@ -9,8 +9,8 @@ import {
 import SuperSelect from "../h7/common/c5-SuperSelect/SuperSelect";
 
 const THEMES = {
-  LIGHT: 'light',
-  DARK: 'dark'
+  LIGHT: 'chosen the light theme',
+  DARK: 'chosen the dark theme'
 }
 const themeArr = [THEMES.LIGHT, THEMES.DARK];
 
