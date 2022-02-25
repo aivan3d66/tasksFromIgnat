@@ -1,4 +1,5 @@
 html {
+  margin-right: calc(-1 * (100vw - 100%));
   box-sizing: border-box;
 }
 
