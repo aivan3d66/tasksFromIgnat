@@ -8,7 +8,6 @@ import {AppRootState} from "./redux/redux-store";
 function App() {
   const theme = useSelector<AppRootState, any>(state => state.theme.scheme);
 
-
   const appStyles = {
     headerColour: `${theme.headerColour}`,
     appBackgroundColour: `${theme.appBackgroundColour}`,
@@ -17,7 +16,10 @@ function App() {
 
   return (
     <div className={s.App}>
-      <div className="App" style={{backgroundColor: `${appStyles.appBackgroundColour}`}}>
+      <div className="App" style={{
+        minHeight: "100vh",
+        backgroundColor: `${appStyles.appBackgroundColour}`,
+      }}>
         <AppBar position="static" style={{backgroundColor: `${appStyles.headerColour}`}}>
           <Toolbar>
             <IconButton
