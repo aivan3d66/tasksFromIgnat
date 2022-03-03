@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add upd THEMES names" />
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add HW13 directory">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h13/HW13.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/HW13.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../socialNetwork-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -159,13 +162,7 @@
       <workItem from="1645214161758" duration="197000" />
       <workItem from="1645467288037" duration="1328000" />
       <workItem from="1645812041473" duration="6059000" />
-    </task>
-    <task id="LOCAL-00114" summary="add first SuperRange">
-      <created>1641840561666</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1641840561666</updated>
+      <workItem from="1646287848140" duration="188000" />
     </task>
     <task id="LOCAL-00115" summary="add default SuperDoubleRange">
       <created>1641840574170</created>
@@ -503,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645818055046</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="add HW13 directory">
+      <created>1646287989989</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1646287989989</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +541,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="add themeReducer logic" />
     <MESSAGE value="delete h1 styles" />
     <MESSAGE value="add upd App main page styles" />
     <MESSAGE value="add MenuRoundedIcon" />
@@ -562,7 +565,8 @@
     <MESSAGE value="add IconButton for menu component" />
     <MESSAGE value="add upd of menu btn styles" />
     <MESSAGE value="add upd THEMES names" />
-    <option name="LAST_COMMIT_MESSAGE" value="add upd THEMES names" />
+    <MESSAGE value="add HW13 directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HW13 directory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
