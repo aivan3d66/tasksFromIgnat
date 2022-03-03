@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add default Request component">
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add axios dependencies">
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/api/request-api.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h13/HW13.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/HW13.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../toDoList-TS" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -162,21 +162,7 @@
       <workItem from="1645214161758" duration="197000" />
       <workItem from="1645467288037" duration="1328000" />
       <workItem from="1645812041473" duration="6059000" />
-      <workItem from="1646287848140" duration="542000" />
-    </task>
-    <task id="LOCAL-00118" summary="delete StrictMode">
-      <created>1641845781302</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1641845781302</updated>
-    </task>
-    <task id="LOCAL-00119" summary="add Range with props and typing">
-      <created>1641845804772</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1641845804772</updated>
+      <workItem from="1646287848140" duration="1242000" />
     </task>
     <task id="LOCAL-00120" summary="add range styles">
       <created>1641845821873</created>
@@ -507,7 +493,21 @@
       <option name="project" value="LOCAL" />
       <updated>1646288373255</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="add Request import">
+      <created>1646288415886</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1646288415886</updated>
+    </task>
+    <task id="LOCAL-00168" summary="add axios dependencies">
+      <created>1646288797716</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1646288797717</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,8 +541,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="add MenuRoundedIcon" />
-    <MESSAGE value="add upd btn size and colour" />
     <MESSAGE value="add SuperInputText import" />
     <MESSAGE value="delete inputField input styles" />
     <MESSAGE value="add HW12" />
@@ -566,7 +564,9 @@
     <MESSAGE value="add HW13 directory" />
     <MESSAGE value="add HW13 import" />
     <MESSAGE value="add default Request component" />
-    <option name="LAST_COMMIT_MESSAGE" value="add default Request component" />
+    <MESSAGE value="add Request import" />
+    <MESSAGE value="add axios dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="add axios dependencies" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
