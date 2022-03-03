@@ -11,10 +11,6 @@ function Request() {
     return setChecked(e.currentTarget.checked)
   }
   const onButtonClickHandler = () => {
-    // return postData(checked)
-    //   .then(res => setState(res))
-    //   .catch(error => setState(error.response ? error.response.data.errorText : error.message))
-
     return axiosPostData.postRequest(checked)
       .then(res => setState(res.data))
       .catch(error => setState(error.response ? error.response.data.errorText : error.message))
