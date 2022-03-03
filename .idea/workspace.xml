@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add JuniorPlus styles and hr tags">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h12/HW12.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h12/HW12.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add upd THEMES names" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,35 +158,7 @@
       <workItem from="1645213851662" duration="5000" />
       <workItem from="1645214161758" duration="197000" />
       <workItem from="1645467288037" duration="1328000" />
-      <workItem from="1645812041473" duration="5804000" />
-    </task>
-    <task id="LOCAL-00110" summary="add HW11 styles">
-      <created>1641840426190</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1641840426190</updated>
-    </task>
-    <task id="LOCAL-00111" summary="add HW11 import">
-      <created>1641840434241</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1641840434241</updated>
-    </task>
-    <task id="LOCAL-00112" summary="add rc-slider dependencies">
-      <created>1641840468113</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1641840468113</updated>
-    </task>
-    <task id="LOCAL-00113" summary="add SuperRange with styles">
-      <created>1641840500563</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1641840500563</updated>
+      <workItem from="1645812041473" duration="6059000" />
     </task>
     <task id="LOCAL-00114" summary="add first SuperRange">
       <created>1641840561666</created>
@@ -508,7 +475,35 @@
       <option name="project" value="LOCAL" />
       <updated>1645816528073</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="add import upd">
+      <created>1645817969172</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1645817969172</updated>
+    </task>
+    <task id="LOCAL-00160" summary="add IconButton for menu component">
+      <created>1645818021910</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1645818021910</updated>
+    </task>
+    <task id="LOCAL-00161" summary="add upd of menu btn styles">
+      <created>1645818041214</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1645818041214</updated>
+    </task>
+    <task id="LOCAL-00162" summary="add upd THEMES names">
+      <created>1645818055046</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1645818055046</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,10 +537,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="add material icons dependencies" />
-    <MESSAGE value="add themeReducer to rootReducer" />
-    <MESSAGE value="add upd SupeButton styles" />
-    <MESSAGE value="add upd SuperInput styles" />
     <MESSAGE value="add themeReducer logic" />
     <MESSAGE value="delete h1 styles" />
     <MESSAGE value="add upd App main page styles" />
@@ -567,7 +558,11 @@
     <MESSAGE value="add App min height value" />
     <MESSAGE value="add HW12 padding value" />
     <MESSAGE value="add JuniorPlus styles and hr tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="add JuniorPlus styles and hr tags" />
+    <MESSAGE value="add import upd" />
+    <MESSAGE value="add IconButton for menu component" />
+    <MESSAGE value="add upd of menu btn styles" />
+    <MESSAGE value="add upd THEMES names" />
+    <option name="LAST_COMMIT_MESSAGE" value="add upd THEMES names" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
