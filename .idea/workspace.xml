@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add createRequestApi func">
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add onCheckboxHandler and checked useState">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h13/Request.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/Request.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h13/api/request-api.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/api/request-api.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,14 +163,7 @@
       <workItem from="1645214161758" duration="197000" />
       <workItem from="1645467288037" duration="1328000" />
       <workItem from="1645812041473" duration="6059000" />
-      <workItem from="1646287848140" duration="2174000" />
-    </task>
-    <task id="LOCAL-00121" summary="add change of rangeWrapper input margin and width">
-      <created>1641891059468</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1641891059469</updated>
+      <workItem from="1646287848140" duration="5811000" />
     </task>
     <task id="LOCAL-00122" summary="add onChangeRange, disable, step type">
       <created>1641891083699</created>
@@ -507,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646289395371</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="add onCheckboxHandler and checked useState">
+      <created>1646290093310</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1646290093310</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +542,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="delete inputField input styles" />
     <MESSAGE value="add HW12" />
     <MESSAGE value="add DeleteRoundedIcon" />
     <MESSAGE value="add upd inputButton width" />
@@ -566,7 +566,8 @@
     <MESSAGE value="add Request import" />
     <MESSAGE value="add axios dependencies" />
     <MESSAGE value="add createRequestApi func" />
-    <option name="LAST_COMMIT_MESSAGE" value="add createRequestApi func" />
+    <MESSAGE value="add onCheckboxHandler and checked useState" />
+    <option name="LAST_COMMIT_MESSAGE" value="add onCheckboxHandler and checked useState" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
