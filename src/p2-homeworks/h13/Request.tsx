@@ -4,6 +4,9 @@ import SuperCheckbox from "../h4/common/c3-SuperCheckbox/SuperCheckbox";
 
 function Request() {
   const [checked, setChecked] = useState<boolean>(false);
+  const [state, setState] = useState<string>('');
+
+  console.log(state)
 
   const onCheckboxHandler = (e: ChangeEvent<HTMLInputElement>) => {
     return setChecked(e.currentTarget.checked)
