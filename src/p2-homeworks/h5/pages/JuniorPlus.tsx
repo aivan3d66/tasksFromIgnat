@@ -1,5 +1,6 @@
 import React from "react";
 import HW12 from "../../h12/HW12";
+import HW13 from "../../h13/HW13";
 
 export const JuniorPlus = () => {
   return (
@@ -10,6 +11,8 @@ export const JuniorPlus = () => {
     }}>
       <hr/>
       <HW12/>
+      <hr/>
+      <HW13/>
       <hr/>
     </div>
   )
