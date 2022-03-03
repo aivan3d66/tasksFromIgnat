@@ -1,11 +1,10 @@
+import { Button, Checkbox, Paper } from "@mui/material";
 import React, {ChangeEvent, useState} from "react";
-import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
-import SuperCheckbox from "../h4/common/c3-SuperCheckbox/SuperCheckbox";
 import {axiosPostData} from "./api/request-api";
 
 function Request() {
   const [checked, setChecked] = useState<boolean>(false);
-  const [state, setState] = useState<string>('');
+  const [state, setState] = useState<string>(' ... ');
 
   const onCheckboxHandler = (e: ChangeEvent<HTMLInputElement>) => {
     return setChecked(e.currentTarget.checked)
@@ -18,21 +17,33 @@ function Request() {
 
   return (
     <div>
-      <div>
-        <SuperButton onClick={onButtonClickHandler}>
-          click for request
-        </SuperButton>
+      <div style={{
+        display: "flex",
+        justifyContent: "space-between",
+        margin: "0 0 30px 0"
+      }}>
+        <Button variant="contained" onClick={onButtonClickHandler}>create request</Button>
+        <span>
+          Success: <Checkbox
+            size={'medium'}
+            checked={checked}
+            onChange={onCheckboxHandler}
+          />
+        </span>
       </div>
       <div>
-        <SuperCheckbox
-          checked={checked}
-          onChange={onCheckboxHandler}
+        <Paper
+          variant="outlined"
+          square
+          style={{
+            minHeight: "100px",
+            padding: "10px",
+            textAlign: "center",
+          }}
+
         >
-          check
-        </SuperCheckbox>
-      </div>
-      <div>
-        {JSON.stringify(state)}
+          {JSON.stringify(state)}
+        </Paper>
       </div>
     </div>
   );

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add onCheckboxHandler and checked useState">
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="delete comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h13/Request.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/Request.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h13/api/request-api.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/api/request-api.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,42 +162,7 @@
       <workItem from="1645214161758" duration="197000" />
       <workItem from="1645467288037" duration="1328000" />
       <workItem from="1645812041473" duration="6059000" />
-      <workItem from="1646287848140" duration="5811000" />
-    </task>
-    <task id="LOCAL-00122" summary="add onChangeRange, disable, step type">
-      <created>1641891083699</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1641891083699</updated>
-    </task>
-    <task id="LOCAL-00123" summary="add new rangeWrapper input  margin">
-      <created>1641900989223</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1641900989223</updated>
-    </task>
-    <task id="LOCAL-00124" summary="add value1 and value2 types">
-      <created>1641901016565</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1641901016565</updated>
-    </task>
-    <task id="LOCAL-00125" summary="add useEffect hook">
-      <created>1641901028558</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1641901028558</updated>
-    </task>
-    <task id="LOCAL-00126" summary="add onChangeRangeFirstHandler and onChangeRangeSecondHandler callbacks">
-      <created>1641901053290</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1641901053290</updated>
+      <workItem from="1646287848140" duration="6543000" />
     </task>
     <task id="LOCAL-00127" summary="add SuperDoubleRange logic">
       <created>1641901075323</created>
@@ -508,7 +472,42 @@
       <option name="project" value="LOCAL" />
       <updated>1646290093310</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="add local state">
+      <created>1646297482604</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1646297482604</updated>
+    </task>
+    <task id="LOCAL-00172" summary="add onButtonClickHandler">
+      <created>1646297498551</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1646297498551</updated>
+    </task>
+    <task id="LOCAL-00173" summary="add response data">
+      <created>1646297522045</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1646297522045</updated>
+    </task>
+    <task id="LOCAL-00174" summary="add axiosPostData request">
+      <created>1646297541087</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1646297541087</updated>
+    </task>
+    <task id="LOCAL-00175" summary="delete comments">
+      <created>1646297556960</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1646297556960</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,11 +541,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="add HW12" />
-    <MESSAGE value="add DeleteRoundedIcon" />
-    <MESSAGE value="add upd inputButton width" />
-    <MESSAGE value="add upd HW4-5 styles" />
-    <MESSAGE value="add upd SuperRadio input (add sync with SuperSelect)" />
     <MESSAGE value="add SuperSelect import" />
     <MESSAGE value="add THEMES const and themeArr" />
     <MESSAGE value="add current theme value" />
@@ -567,7 +561,12 @@
     <MESSAGE value="add axios dependencies" />
     <MESSAGE value="add createRequestApi func" />
     <MESSAGE value="add onCheckboxHandler and checked useState" />
-    <option name="LAST_COMMIT_MESSAGE" value="add onCheckboxHandler and checked useState" />
+    <MESSAGE value="add local state" />
+    <MESSAGE value="add onButtonClickHandler" />
+    <MESSAGE value="add response data" />
+    <MESSAGE value="add axiosPostData request" />
+    <MESSAGE value="delete comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
