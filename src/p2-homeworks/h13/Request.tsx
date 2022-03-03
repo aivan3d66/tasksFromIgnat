@@ -1,6 +1,7 @@
 import React, {ChangeEvent, useState} from "react";
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 import SuperCheckbox from "../h4/common/c3-SuperCheckbox/SuperCheckbox";
+import {axiosPostData} from "./api/request-api";
 
 function Request() {
   const [checked, setChecked] = useState<boolean>(false);
@@ -33,6 +34,9 @@ function Request() {
         >
           check
         </SuperCheckbox>
+      </div>
+      <div>
+        {JSON.stringify(state)}
       </div>
     </div>
   );
