@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add HW13 directory">
+    <list default="true" id="e6f0b2b5-0870-4504-bcd4-faa6f8a74976" name="Changes" comment="add default Request component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h13/HW13.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/HW13.tsx" afterDir="false" />
     </list>
@@ -162,28 +162,7 @@
       <workItem from="1645214161758" duration="197000" />
       <workItem from="1645467288037" duration="1328000" />
       <workItem from="1645812041473" duration="6059000" />
-      <workItem from="1646287848140" duration="188000" />
-    </task>
-    <task id="LOCAL-00115" summary="add default SuperDoubleRange">
-      <created>1641840574170</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1641840574170</updated>
-    </task>
-    <task id="LOCAL-00116" summary="add rangeWrapper span styles">
-      <created>1641845763445</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1641845763445</updated>
-    </task>
-    <task id="LOCAL-00117" summary="add onSetResultHandler">
-      <created>1641845772501</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1641845772501</updated>
+      <workItem from="1646287848140" duration="542000" />
     </task>
     <task id="LOCAL-00118" summary="delete StrictMode">
       <created>1641845781302</created>
@@ -507,7 +486,28 @@
       <option name="project" value="LOCAL" />
       <updated>1646287989989</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="add HW13 import">
+      <created>1646288104803</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1646288104803</updated>
+    </task>
+    <task id="LOCAL-00165" summary="add HW13 import">
+      <created>1646288111615</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1646288111615</updated>
+    </task>
+    <task id="LOCAL-00166" summary="add default Request component">
+      <created>1646288373255</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1646288373255</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,8 +541,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="delete h1 styles" />
-    <MESSAGE value="add upd App main page styles" />
     <MESSAGE value="add MenuRoundedIcon" />
     <MESSAGE value="add upd btn size and colour" />
     <MESSAGE value="add SuperInputText import" />
@@ -566,7 +564,9 @@
     <MESSAGE value="add upd of menu btn styles" />
     <MESSAGE value="add upd THEMES names" />
     <MESSAGE value="add HW13 directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HW13 directory" />
+    <MESSAGE value="add HW13 import" />
+    <MESSAGE value="add default Request component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add default Request component" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
